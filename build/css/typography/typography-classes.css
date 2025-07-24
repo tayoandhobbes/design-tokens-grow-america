@@ -1,0 +1,1340 @@
+/* Typography Utility Classes */
+.typography-display-semibold-serif {
+  font-size: var(--typography-display-semibold-serif-font-size);
+  text-decoration: var(--typography-display-semibold-serif-text-decoration);
+  font-family: var(--typography-display-semibold-serif-font-family);
+  font-weight: var(--typography-display-semibold-serif-font-weight);
+  font-style: var(--typography-display-semibold-serif-font-style);
+  font-stretch: var(--typography-display-semibold-serif-font-stretch);
+  letter-spacing: var(--typography-display-semibold-serif-letter-spacing);
+  line-height: var(--typography-display-semibold-serif-line-height);
+  text-indent: var(--typography-display-semibold-serif-paragraph-indent);
+  margin-bottom: var(--typography-display-semibold-serif-paragraph-spacing);
+}
+
+.typography-display-medium-sans {
+  font-size: var(--typography-display-medium-sans-font-size);
+  text-decoration: var(--typography-display-medium-sans-text-decoration);
+  font-family: var(--typography-display-medium-sans-font-family);
+  font-weight: var(--typography-display-medium-sans-font-weight);
+  font-style: var(--typography-display-medium-sans-font-style);
+  font-stretch: var(--typography-display-medium-sans-font-stretch);
+  letter-spacing: var(--typography-display-medium-sans-letter-spacing);
+  line-height: var(--typography-display-medium-sans-line-height);
+  text-indent: var(--typography-display-medium-sans-paragraph-indent);
+  margin-bottom: var(--typography-display-medium-sans-paragraph-spacing);
+}
+
+.typography-display-italic-serif {
+  font-size: var(--typography-display-italic-serif-font-size);
+  text-decoration: var(--typography-display-italic-serif-text-decoration);
+  font-family: var(--typography-display-italic-serif-font-family);
+  font-weight: var(--typography-display-italic-serif-font-weight);
+  font-style: var(--typography-display-italic-serif-font-style);
+  font-stretch: var(--typography-display-italic-serif-font-stretch);
+  letter-spacing: var(--typography-display-italic-serif-letter-spacing);
+  line-height: var(--typography-display-italic-serif-line-height);
+  text-indent: var(--typography-display-italic-serif-paragraph-indent);
+  margin-bottom: var(--typography-display-italic-serif-paragraph-spacing);
+}
+
+.typography-display-bold {
+  font-size: var(--typography-display-bold-font-size);
+  text-decoration: var(--typography-display-bold-text-decoration);
+  font-family: var(--typography-display-bold-font-family);
+  font-weight: var(--typography-display-bold-font-weight);
+  font-style: var(--typography-display-bold-font-style);
+  font-stretch: var(--typography-display-bold-font-stretch);
+  letter-spacing: var(--typography-display-bold-letter-spacing);
+  line-height: var(--typography-display-bold-line-height);
+  text-indent: var(--typography-display-bold-paragraph-indent);
+  margin-bottom: var(--typography-display-bold-paragraph-spacing);
+}
+
+.typography-display-italic {
+  font-size: var(--typography-display-italic-font-size);
+  text-decoration: var(--typography-display-italic-text-decoration);
+  font-family: var(--typography-display-italic-font-family);
+  font-weight: var(--typography-display-italic-font-weight);
+  font-style: var(--typography-display-italic-font-style);
+  font-stretch: var(--typography-display-italic-font-stretch);
+  letter-spacing: var(--typography-display-italic-letter-spacing);
+  line-height: var(--typography-display-italic-line-height);
+  text-indent: var(--typography-display-italic-paragraph-indent);
+  margin-bottom: var(--typography-display-italic-paragraph-spacing);
+}
+
+.typography-display-regular {
+  font-size: var(--typography-display-regular-font-size);
+  text-decoration: var(--typography-display-regular-text-decoration);
+  font-family: var(--typography-display-regular-font-family);
+  font-weight: var(--typography-display-regular-font-weight);
+  font-style: var(--typography-display-regular-font-style);
+  font-stretch: var(--typography-display-regular-font-stretch);
+  letter-spacing: var(--typography-display-regular-letter-spacing);
+  line-height: var(--typography-display-regular-line-height);
+  text-indent: var(--typography-display-regular-paragraph-indent);
+  margin-bottom: var(--typography-display-regular-paragraph-spacing);
+}
+
+.typography-display-light {
+  font-size: var(--typography-display-light-font-size);
+  text-decoration: var(--typography-display-light-text-decoration);
+  font-family: var(--typography-display-light-font-family);
+  font-weight: var(--typography-display-light-font-weight);
+  font-style: var(--typography-display-light-font-style);
+  font-stretch: var(--typography-display-light-font-stretch);
+  letter-spacing: var(--typography-display-light-letter-spacing);
+  line-height: var(--typography-display-light-line-height);
+  text-indent: var(--typography-display-light-paragraph-indent);
+  margin-bottom: var(--typography-display-light-paragraph-spacing);
+}
+
+.typography-display-regular-wallop {
+  font-size: var(--typography-display-regular-wallop-font-size);
+  text-decoration: var(--typography-display-regular-wallop-text-decoration);
+  font-family: var(--typography-display-regular-wallop-font-family);
+  font-weight: var(--typography-display-regular-wallop-font-weight);
+  font-style: var(--typography-display-regular-wallop-font-style);
+  font-stretch: var(--typography-display-regular-wallop-font-stretch);
+  letter-spacing: var(--typography-display-regular-wallop-letter-spacing);
+  line-height: var(--typography-display-regular-wallop-line-height);
+  text-indent: var(--typography-display-regular-wallop-paragraph-indent);
+  margin-bottom: var(--typography-display-regular-wallop-paragraph-spacing);
+}
+
+.typography-one-regular-sans {
+  font-size: var(--typography-one-regular-sans-font-size);
+  text-decoration: var(--typography-one-regular-sans-text-decoration);
+  font-family: var(--typography-one-regular-sans-font-family);
+  font-weight: var(--typography-one-regular-sans-font-weight);
+  font-style: var(--typography-one-regular-sans-font-style);
+  font-stretch: var(--typography-one-regular-sans-font-stretch);
+  letter-spacing: var(--typography-one-regular-sans-letter-spacing);
+  line-height: var(--typography-one-regular-sans-line-height);
+  text-indent: var(--typography-one-regular-sans-paragraph-indent);
+  margin-bottom: var(--typography-one-regular-sans-paragraph-spacing);
+}
+
+.typography-one-bold {
+  font-size: var(--typography-one-bold-font-size);
+  text-decoration: var(--typography-one-bold-text-decoration);
+  font-family: var(--typography-one-bold-font-family);
+  font-weight: var(--typography-one-bold-font-weight);
+  font-style: var(--typography-one-bold-font-style);
+  font-stretch: var(--typography-one-bold-font-stretch);
+  letter-spacing: var(--typography-one-bold-letter-spacing);
+  line-height: var(--typography-one-bold-line-height);
+  text-indent: var(--typography-one-bold-paragraph-indent);
+  margin-bottom: var(--typography-one-bold-paragraph-spacing);
+}
+
+.typography-one-italic {
+  font-size: var(--typography-one-italic-font-size);
+  text-decoration: var(--typography-one-italic-text-decoration);
+  font-family: var(--typography-one-italic-font-family);
+  font-weight: var(--typography-one-italic-font-weight);
+  font-style: var(--typography-one-italic-font-style);
+  font-stretch: var(--typography-one-italic-font-stretch);
+  letter-spacing: var(--typography-one-italic-letter-spacing);
+  line-height: var(--typography-one-italic-line-height);
+  text-indent: var(--typography-one-italic-paragraph-indent);
+  margin-bottom: var(--typography-one-italic-paragraph-spacing);
+}
+
+.typography-one-regular {
+  font-size: var(--typography-one-regular-font-size);
+  text-decoration: var(--typography-one-regular-text-decoration);
+  font-family: var(--typography-one-regular-font-family);
+  font-weight: var(--typography-one-regular-font-weight);
+  font-style: var(--typography-one-regular-font-style);
+  font-stretch: var(--typography-one-regular-font-stretch);
+  letter-spacing: var(--typography-one-regular-letter-spacing);
+  line-height: var(--typography-one-regular-line-height);
+  text-indent: var(--typography-one-regular-paragraph-indent);
+  margin-bottom: var(--typography-one-regular-paragraph-spacing);
+}
+
+.typography-one-light {
+  font-size: var(--typography-one-light-font-size);
+  text-decoration: var(--typography-one-light-text-decoration);
+  font-family: var(--typography-one-light-font-family);
+  font-weight: var(--typography-one-light-font-weight);
+  font-style: var(--typography-one-light-font-style);
+  font-stretch: var(--typography-one-light-font-stretch);
+  letter-spacing: var(--typography-one-light-letter-spacing);
+  line-height: var(--typography-one-light-line-height);
+  text-indent: var(--typography-one-light-paragraph-indent);
+  margin-bottom: var(--typography-one-light-paragraph-spacing);
+}
+
+.typography-one-semibold-sans {
+  font-size: var(--typography-one-semibold-sans-font-size);
+  text-decoration: var(--typography-one-semibold-sans-text-decoration);
+  font-family: var(--typography-one-semibold-sans-font-family);
+  font-weight: var(--typography-one-semibold-sans-font-weight);
+  font-style: var(--typography-one-semibold-sans-font-style);
+  font-stretch: var(--typography-one-semibold-sans-font-stretch);
+  letter-spacing: var(--typography-one-semibold-sans-letter-spacing);
+  line-height: var(--typography-one-semibold-sans-line-height);
+  text-indent: var(--typography-one-semibold-sans-paragraph-indent);
+  margin-bottom: var(--typography-one-semibold-sans-paragraph-spacing);
+}
+
+.typography-one-semibold-italic {
+  font-size: var(--typography-one-semibold-italic-font-size);
+  text-decoration: var(--typography-one-semibold-italic-text-decoration);
+  font-family: var(--typography-one-semibold-italic-font-family);
+  font-weight: var(--typography-one-semibold-italic-font-weight);
+  font-style: var(--typography-one-semibold-italic-font-style);
+  font-stretch: var(--typography-one-semibold-italic-font-stretch);
+  letter-spacing: var(--typography-one-semibold-italic-letter-spacing);
+  line-height: var(--typography-one-semibold-italic-line-height);
+  text-indent: var(--typography-one-semibold-italic-paragraph-indent);
+  margin-bottom: var(--typography-one-semibold-italic-paragraph-spacing);
+}
+
+.typography-two-two-underlined {
+  font-size: var(--typography-two-two-underlined-font-size);
+  text-decoration: var(--typography-two-two-underlined-text-decoration);
+  font-family: var(--typography-two-two-underlined-font-family);
+  font-weight: var(--typography-two-two-underlined-font-weight);
+  font-style: var(--typography-two-two-underlined-font-style);
+  font-stretch: var(--typography-two-two-underlined-font-stretch);
+  letter-spacing: var(--typography-two-two-underlined-letter-spacing);
+  line-height: var(--typography-two-two-underlined-line-height);
+  text-indent: var(--typography-two-two-underlined-paragraph-indent);
+  margin-bottom: var(--typography-two-two-underlined-paragraph-spacing);
+}
+
+.typography-two-bold {
+  font-size: var(--typography-two-bold-font-size);
+  text-decoration: var(--typography-two-bold-text-decoration);
+  font-family: var(--typography-two-bold-font-family);
+  font-weight: var(--typography-two-bold-font-weight);
+  font-style: var(--typography-two-bold-font-style);
+  font-stretch: var(--typography-two-bold-font-stretch);
+  letter-spacing: var(--typography-two-bold-letter-spacing);
+  line-height: var(--typography-two-bold-line-height);
+  text-indent: var(--typography-two-bold-paragraph-indent);
+  margin-bottom: var(--typography-two-bold-paragraph-spacing);
+}
+
+.typography-two-italic {
+  font-size: var(--typography-two-italic-font-size);
+  text-decoration: var(--typography-two-italic-text-decoration);
+  font-family: var(--typography-two-italic-font-family);
+  font-weight: var(--typography-two-italic-font-weight);
+  font-style: var(--typography-two-italic-font-style);
+  font-stretch: var(--typography-two-italic-font-stretch);
+  letter-spacing: var(--typography-two-italic-letter-spacing);
+  line-height: var(--typography-two-italic-line-height);
+  text-indent: var(--typography-two-italic-paragraph-indent);
+  margin-bottom: var(--typography-two-italic-paragraph-spacing);
+}
+
+.typography-two-regular {
+  font-size: var(--typography-two-regular-font-size);
+  text-decoration: var(--typography-two-regular-text-decoration);
+  font-family: var(--typography-two-regular-font-family);
+  font-weight: var(--typography-two-regular-font-weight);
+  font-style: var(--typography-two-regular-font-style);
+  font-stretch: var(--typography-two-regular-font-stretch);
+  letter-spacing: var(--typography-two-regular-letter-spacing);
+  line-height: var(--typography-two-regular-line-height);
+  text-indent: var(--typography-two-regular-paragraph-indent);
+  margin-bottom: var(--typography-two-regular-paragraph-spacing);
+}
+
+.typography-two-light {
+  font-size: var(--typography-two-light-font-size);
+  text-decoration: var(--typography-two-light-text-decoration);
+  font-family: var(--typography-two-light-font-family);
+  font-weight: var(--typography-two-light-font-weight);
+  font-style: var(--typography-two-light-font-style);
+  font-stretch: var(--typography-two-light-font-stretch);
+  letter-spacing: var(--typography-two-light-letter-spacing);
+  line-height: var(--typography-two-light-line-height);
+  text-indent: var(--typography-two-light-paragraph-indent);
+  margin-bottom: var(--typography-two-light-paragraph-spacing);
+}
+
+.typography-two-semibold-wallop {
+  font-size: var(--typography-two-semibold-wallop-font-size);
+  text-decoration: var(--typography-two-semibold-wallop-text-decoration);
+  font-family: var(--typography-two-semibold-wallop-font-family);
+  font-weight: var(--typography-two-semibold-wallop-font-weight);
+  font-style: var(--typography-two-semibold-wallop-font-style);
+  font-stretch: var(--typography-two-semibold-wallop-font-stretch);
+  letter-spacing: var(--typography-two-semibold-wallop-letter-spacing);
+  line-height: var(--typography-two-semibold-wallop-line-height);
+  text-indent: var(--typography-two-semibold-wallop-paragraph-indent);
+  margin-bottom: var(--typography-two-semibold-wallop-paragraph-spacing);
+}
+
+.typography-two-italic-serif {
+  font-size: var(--typography-two-italic-serif-font-size);
+  text-decoration: var(--typography-two-italic-serif-text-decoration);
+  font-family: var(--typography-two-italic-serif-font-family);
+  font-weight: var(--typography-two-italic-serif-font-weight);
+  font-style: var(--typography-two-italic-serif-font-style);
+  font-stretch: var(--typography-two-italic-serif-font-stretch);
+  letter-spacing: var(--typography-two-italic-serif-letter-spacing);
+  line-height: var(--typography-two-italic-serif-line-height);
+  text-indent: var(--typography-two-italic-serif-paragraph-indent);
+  margin-bottom: var(--typography-two-italic-serif-paragraph-spacing);
+}
+
+.typography-two-regular-wallop {
+  font-size: var(--typography-two-regular-wallop-font-size);
+  text-decoration: var(--typography-two-regular-wallop-text-decoration);
+  font-family: var(--typography-two-regular-wallop-font-family);
+  font-weight: var(--typography-two-regular-wallop-font-weight);
+  font-style: var(--typography-two-regular-wallop-font-style);
+  font-stretch: var(--typography-two-regular-wallop-font-stretch);
+  letter-spacing: var(--typography-two-regular-wallop-letter-spacing);
+  line-height: var(--typography-two-regular-wallop-line-height);
+  text-indent: var(--typography-two-regular-wallop-paragraph-indent);
+  margin-bottom: var(--typography-two-regular-wallop-paragraph-spacing);
+}
+
+.typography-two-medium-sans {
+  font-size: var(--typography-two-medium-sans-font-size);
+  text-decoration: var(--typography-two-medium-sans-text-decoration);
+  font-family: var(--typography-two-medium-sans-font-family);
+  font-weight: var(--typography-two-medium-sans-font-weight);
+  font-style: var(--typography-two-medium-sans-font-style);
+  font-stretch: var(--typography-two-medium-sans-font-stretch);
+  letter-spacing: var(--typography-two-medium-sans-letter-spacing);
+  line-height: var(--typography-two-medium-sans-line-height);
+  text-indent: var(--typography-two-medium-sans-paragraph-indent);
+  margin-bottom: var(--typography-two-medium-sans-paragraph-spacing);
+}
+
+.typography-three-bold {
+  font-size: var(--typography-three-bold-font-size);
+  text-decoration: var(--typography-three-bold-text-decoration);
+  font-family: var(--typography-three-bold-font-family);
+  font-weight: var(--typography-three-bold-font-weight);
+  font-style: var(--typography-three-bold-font-style);
+  font-stretch: var(--typography-three-bold-font-stretch);
+  letter-spacing: var(--typography-three-bold-letter-spacing);
+  line-height: var(--typography-three-bold-line-height);
+  text-indent: var(--typography-three-bold-paragraph-indent);
+  margin-bottom: var(--typography-three-bold-paragraph-spacing);
+}
+
+.typography-three-italic {
+  font-size: var(--typography-three-italic-font-size);
+  text-decoration: var(--typography-three-italic-text-decoration);
+  font-family: var(--typography-three-italic-font-family);
+  font-weight: var(--typography-three-italic-font-weight);
+  font-style: var(--typography-three-italic-font-style);
+  font-stretch: var(--typography-three-italic-font-stretch);
+  letter-spacing: var(--typography-three-italic-letter-spacing);
+  line-height: var(--typography-three-italic-line-height);
+  text-indent: var(--typography-three-italic-paragraph-indent);
+  margin-bottom: var(--typography-three-italic-paragraph-spacing);
+}
+
+.typography-three-regular {
+  font-size: var(--typography-three-regular-font-size);
+  text-decoration: var(--typography-three-regular-text-decoration);
+  font-family: var(--typography-three-regular-font-family);
+  font-weight: var(--typography-three-regular-font-weight);
+  font-style: var(--typography-three-regular-font-style);
+  font-stretch: var(--typography-three-regular-font-stretch);
+  letter-spacing: var(--typography-three-regular-letter-spacing);
+  line-height: var(--typography-three-regular-line-height);
+  text-indent: var(--typography-three-regular-paragraph-indent);
+  margin-bottom: var(--typography-three-regular-paragraph-spacing);
+}
+
+.typography-three-light {
+  font-size: var(--typography-three-light-font-size);
+  text-decoration: var(--typography-three-light-text-decoration);
+  font-family: var(--typography-three-light-font-family);
+  font-weight: var(--typography-three-light-font-weight);
+  font-style: var(--typography-three-light-font-style);
+  font-stretch: var(--typography-three-light-font-stretch);
+  letter-spacing: var(--typography-three-light-letter-spacing);
+  line-height: var(--typography-three-light-line-height);
+  text-indent: var(--typography-three-light-paragraph-indent);
+  margin-bottom: var(--typography-three-light-paragraph-spacing);
+}
+
+.typography-three-bold-underlined {
+  font-size: var(--typography-three-bold-underlined-font-size);
+  text-decoration: var(--typography-three-bold-underlined-text-decoration);
+  font-family: var(--typography-three-bold-underlined-font-family);
+  font-weight: var(--typography-three-bold-underlined-font-weight);
+  font-style: var(--typography-three-bold-underlined-font-style);
+  font-stretch: var(--typography-three-bold-underlined-font-stretch);
+  letter-spacing: var(--typography-three-bold-underlined-letter-spacing);
+  line-height: var(--typography-three-bold-underlined-line-height);
+  text-indent: var(--typography-three-bold-underlined-paragraph-indent);
+  margin-bottom: var(--typography-three-bold-underlined-paragraph-spacing);
+}
+
+.typography-three-semibold-wallop {
+  font-size: var(--typography-three-semibold-wallop-font-size);
+  text-decoration: var(--typography-three-semibold-wallop-text-decoration);
+  font-family: var(--typography-three-semibold-wallop-font-family);
+  font-weight: var(--typography-three-semibold-wallop-font-weight);
+  font-style: var(--typography-three-semibold-wallop-font-style);
+  font-stretch: var(--typography-three-semibold-wallop-font-stretch);
+  letter-spacing: var(--typography-three-semibold-wallop-letter-spacing);
+  line-height: var(--typography-three-semibold-wallop-line-height);
+  text-indent: var(--typography-three-semibold-wallop-paragraph-indent);
+  margin-bottom: var(--typography-three-semibold-wallop-paragraph-spacing);
+}
+
+.typography-three-semibold-sans {
+  font-size: var(--typography-three-semibold-sans-font-size);
+  text-decoration: var(--typography-three-semibold-sans-text-decoration);
+  font-family: var(--typography-three-semibold-sans-font-family);
+  font-weight: var(--typography-three-semibold-sans-font-weight);
+  font-style: var(--typography-three-semibold-sans-font-style);
+  font-stretch: var(--typography-three-semibold-sans-font-stretch);
+  letter-spacing: var(--typography-three-semibold-sans-letter-spacing);
+  line-height: var(--typography-three-semibold-sans-line-height);
+  text-indent: var(--typography-three-semibold-sans-paragraph-indent);
+  margin-bottom: var(--typography-three-semibold-sans-paragraph-spacing);
+}
+
+.typography-three-medium-wallop {
+  font-size: var(--typography-three-medium-wallop-font-size);
+  text-decoration: var(--typography-three-medium-wallop-text-decoration);
+  font-family: var(--typography-three-medium-wallop-font-family);
+  font-weight: var(--typography-three-medium-wallop-font-weight);
+  font-style: var(--typography-three-medium-wallop-font-style);
+  font-stretch: var(--typography-three-medium-wallop-font-stretch);
+  letter-spacing: var(--typography-three-medium-wallop-letter-spacing);
+  line-height: var(--typography-three-medium-wallop-line-height);
+  text-indent: var(--typography-three-medium-wallop-paragraph-indent);
+  margin-bottom: var(--typography-three-medium-wallop-paragraph-spacing);
+}
+
+.typography-three-regular-wallop {
+  font-size: var(--typography-three-regular-wallop-font-size);
+  text-decoration: var(--typography-three-regular-wallop-text-decoration);
+  font-family: var(--typography-three-regular-wallop-font-family);
+  font-weight: var(--typography-three-regular-wallop-font-weight);
+  font-style: var(--typography-three-regular-wallop-font-style);
+  font-stretch: var(--typography-three-regular-wallop-font-stretch);
+  letter-spacing: var(--typography-three-regular-wallop-letter-spacing);
+  line-height: var(--typography-three-regular-wallop-line-height);
+  text-indent: var(--typography-three-regular-wallop-paragraph-indent);
+  margin-bottom: var(--typography-three-regular-wallop-paragraph-spacing);
+}
+
+.typography-three-medium-sans {
+  font-size: var(--typography-three-medium-sans-font-size);
+  text-decoration: var(--typography-three-medium-sans-text-decoration);
+  font-family: var(--typography-three-medium-sans-font-family);
+  font-weight: var(--typography-three-medium-sans-font-weight);
+  font-style: var(--typography-three-medium-sans-font-style);
+  font-stretch: var(--typography-three-medium-sans-font-stretch);
+  letter-spacing: var(--typography-three-medium-sans-letter-spacing);
+  line-height: var(--typography-three-medium-sans-line-height);
+  text-indent: var(--typography-three-medium-sans-paragraph-indent);
+  margin-bottom: var(--typography-three-medium-sans-paragraph-spacing);
+}
+
+.typography-four-bold {
+  font-size: var(--typography-four-bold-font-size);
+  text-decoration: var(--typography-four-bold-text-decoration);
+  font-family: var(--typography-four-bold-font-family);
+  font-weight: var(--typography-four-bold-font-weight);
+  font-style: var(--typography-four-bold-font-style);
+  font-stretch: var(--typography-four-bold-font-stretch);
+  letter-spacing: var(--typography-four-bold-letter-spacing);
+  line-height: var(--typography-four-bold-line-height);
+  text-indent: var(--typography-four-bold-paragraph-indent);
+  margin-bottom: var(--typography-four-bold-paragraph-spacing);
+}
+
+.typography-four-italic {
+  font-size: var(--typography-four-italic-font-size);
+  text-decoration: var(--typography-four-italic-text-decoration);
+  font-family: var(--typography-four-italic-font-family);
+  font-weight: var(--typography-four-italic-font-weight);
+  font-style: var(--typography-four-italic-font-style);
+  font-stretch: var(--typography-four-italic-font-stretch);
+  letter-spacing: var(--typography-four-italic-letter-spacing);
+  line-height: var(--typography-four-italic-line-height);
+  text-indent: var(--typography-four-italic-paragraph-indent);
+  margin-bottom: var(--typography-four-italic-paragraph-spacing);
+}
+
+.typography-four-regular {
+  font-size: var(--typography-four-regular-font-size);
+  text-decoration: var(--typography-four-regular-text-decoration);
+  font-family: var(--typography-four-regular-font-family);
+  font-weight: var(--typography-four-regular-font-weight);
+  font-style: var(--typography-four-regular-font-style);
+  font-stretch: var(--typography-four-regular-font-stretch);
+  letter-spacing: var(--typography-four-regular-letter-spacing);
+  line-height: var(--typography-four-regular-line-height);
+  text-indent: var(--typography-four-regular-paragraph-indent);
+  margin-bottom: var(--typography-four-regular-paragraph-spacing);
+}
+
+.typography-four-light {
+  font-size: var(--typography-four-light-font-size);
+  text-decoration: var(--typography-four-light-text-decoration);
+  font-family: var(--typography-four-light-font-family);
+  font-weight: var(--typography-four-light-font-weight);
+  font-style: var(--typography-four-light-font-style);
+  font-stretch: var(--typography-four-light-font-stretch);
+  letter-spacing: var(--typography-four-light-letter-spacing);
+  line-height: var(--typography-four-light-line-height);
+  text-indent: var(--typography-four-light-paragraph-indent);
+  margin-bottom: var(--typography-four-light-paragraph-spacing);
+}
+
+.typography-four-semibold-sans {
+  font-size: var(--typography-four-semibold-sans-font-size);
+  text-decoration: var(--typography-four-semibold-sans-text-decoration);
+  font-family: var(--typography-four-semibold-sans-font-family);
+  font-weight: var(--typography-four-semibold-sans-font-weight);
+  font-style: var(--typography-four-semibold-sans-font-style);
+  font-stretch: var(--typography-four-semibold-sans-font-stretch);
+  letter-spacing: var(--typography-four-semibold-sans-letter-spacing);
+  line-height: var(--typography-four-semibold-sans-line-height);
+  text-indent: var(--typography-four-semibold-sans-paragraph-indent);
+  margin-bottom: var(--typography-four-semibold-sans-paragraph-spacing);
+}
+
+.typography-four-medium-brand {
+  font-size: var(--typography-four-medium-brand-font-size);
+  text-decoration: var(--typography-four-medium-brand-text-decoration);
+  font-family: var(--typography-four-medium-brand-font-family);
+  font-weight: var(--typography-four-medium-brand-font-weight);
+  font-style: var(--typography-four-medium-brand-font-style);
+  font-stretch: var(--typography-four-medium-brand-font-stretch);
+  letter-spacing: var(--typography-four-medium-brand-letter-spacing);
+  line-height: var(--typography-four-medium-brand-line-height);
+  text-indent: var(--typography-four-medium-brand-paragraph-indent);
+  margin-bottom: var(--typography-four-medium-brand-paragraph-spacing);
+}
+
+.typography-four-medium-italic-serif {
+  font-size: var(--typography-four-medium-italic-serif-font-size);
+  text-decoration: var(--typography-four-medium-italic-serif-text-decoration);
+  font-family: var(--typography-four-medium-italic-serif-font-family);
+  font-weight: var(--typography-four-medium-italic-serif-font-weight);
+  font-style: var(--typography-four-medium-italic-serif-font-style);
+  font-stretch: var(--typography-four-medium-italic-serif-font-stretch);
+  letter-spacing: var(--typography-four-medium-italic-serif-letter-spacing);
+  line-height: var(--typography-four-medium-italic-serif-line-height);
+  text-indent: var(--typography-four-medium-italic-serif-paragraph-indent);
+  margin-bottom: var(--typography-four-medium-italic-serif-paragraph-spacing);
+}
+
+.typography-five-bold {
+  font-size: var(--typography-five-bold-font-size);
+  text-decoration: var(--typography-five-bold-text-decoration);
+  font-family: var(--typography-five-bold-font-family);
+  font-weight: var(--typography-five-bold-font-weight);
+  font-style: var(--typography-five-bold-font-style);
+  font-stretch: var(--typography-five-bold-font-stretch);
+  letter-spacing: var(--typography-five-bold-letter-spacing);
+  line-height: var(--typography-five-bold-line-height);
+  text-indent: var(--typography-five-bold-paragraph-indent);
+  margin-bottom: var(--typography-five-bold-paragraph-spacing);
+}
+
+.typography-five-italic {
+  font-size: var(--typography-five-italic-font-size);
+  text-decoration: var(--typography-five-italic-text-decoration);
+  font-family: var(--typography-five-italic-font-family);
+  font-weight: var(--typography-five-italic-font-weight);
+  font-style: var(--typography-five-italic-font-style);
+  font-stretch: var(--typography-five-italic-font-stretch);
+  letter-spacing: var(--typography-five-italic-letter-spacing);
+  line-height: var(--typography-five-italic-line-height);
+  text-indent: var(--typography-five-italic-paragraph-indent);
+  margin-bottom: var(--typography-five-italic-paragraph-spacing);
+}
+
+.typography-five-regular {
+  font-size: var(--typography-five-regular-font-size);
+  text-decoration: var(--typography-five-regular-text-decoration);
+  font-family: var(--typography-five-regular-font-family);
+  font-weight: var(--typography-five-regular-font-weight);
+  font-style: var(--typography-five-regular-font-style);
+  font-stretch: var(--typography-five-regular-font-stretch);
+  letter-spacing: var(--typography-five-regular-letter-spacing);
+  line-height: var(--typography-five-regular-line-height);
+  text-indent: var(--typography-five-regular-paragraph-indent);
+  margin-bottom: var(--typography-five-regular-paragraph-spacing);
+}
+
+.typography-five-light {
+  font-size: var(--typography-five-light-font-size);
+  text-decoration: var(--typography-five-light-text-decoration);
+  font-family: var(--typography-five-light-font-family);
+  font-weight: var(--typography-five-light-font-weight);
+  font-style: var(--typography-five-light-font-style);
+  font-stretch: var(--typography-five-light-font-stretch);
+  letter-spacing: var(--typography-five-light-letter-spacing);
+  line-height: var(--typography-five-light-line-height);
+  text-indent: var(--typography-five-light-paragraph-indent);
+  margin-bottom: var(--typography-five-light-paragraph-spacing);
+}
+
+.typography-five-semibold-sans {
+  font-size: var(--typography-five-semibold-sans-font-size);
+  text-decoration: var(--typography-five-semibold-sans-text-decoration);
+  font-family: var(--typography-five-semibold-sans-font-family);
+  font-weight: var(--typography-five-semibold-sans-font-weight);
+  font-style: var(--typography-five-semibold-sans-font-style);
+  font-stretch: var(--typography-five-semibold-sans-font-stretch);
+  letter-spacing: var(--typography-five-semibold-sans-letter-spacing);
+  line-height: var(--typography-five-semibold-sans-line-height);
+  text-indent: var(--typography-five-semibold-sans-paragraph-indent);
+  margin-bottom: var(--typography-five-semibold-sans-paragraph-spacing);
+}
+
+.typography-five-medium-brand {
+  font-size: var(--typography-five-medium-brand-font-size);
+  text-decoration: var(--typography-five-medium-brand-text-decoration);
+  font-family: var(--typography-five-medium-brand-font-family);
+  font-weight: var(--typography-five-medium-brand-font-weight);
+  font-style: var(--typography-five-medium-brand-font-style);
+  font-stretch: var(--typography-five-medium-brand-font-stretch);
+  letter-spacing: var(--typography-five-medium-brand-letter-spacing);
+  line-height: var(--typography-five-medium-brand-line-height);
+  text-indent: var(--typography-five-medium-brand-paragraph-indent);
+  margin-bottom: var(--typography-five-medium-brand-paragraph-spacing);
+}
+
+.typography-six-bold-caps {
+  font-size: var(--typography-six-bold-caps-font-size);
+  text-decoration: var(--typography-six-bold-caps-text-decoration);
+  font-family: var(--typography-six-bold-caps-font-family);
+  font-weight: var(--typography-six-bold-caps-font-weight);
+  font-style: var(--typography-six-bold-caps-font-style);
+  font-stretch: var(--typography-six-bold-caps-font-stretch);
+  letter-spacing: var(--typography-six-bold-caps-letter-spacing);
+  line-height: var(--typography-six-bold-caps-line-height);
+  text-indent: var(--typography-six-bold-caps-paragraph-indent);
+  margin-bottom: var(--typography-six-bold-caps-paragraph-spacing);
+}
+
+.typography-six-italic {
+  font-size: var(--typography-six-italic-font-size);
+  text-decoration: var(--typography-six-italic-text-decoration);
+  font-family: var(--typography-six-italic-font-family);
+  font-weight: var(--typography-six-italic-font-weight);
+  font-style: var(--typography-six-italic-font-style);
+  font-stretch: var(--typography-six-italic-font-stretch);
+  letter-spacing: var(--typography-six-italic-letter-spacing);
+  line-height: var(--typography-six-italic-line-height);
+  text-indent: var(--typography-six-italic-paragraph-indent);
+  margin-bottom: var(--typography-six-italic-paragraph-spacing);
+}
+
+.typography-six-regular {
+  font-size: var(--typography-six-regular-font-size);
+  text-decoration: var(--typography-six-regular-text-decoration);
+  font-family: var(--typography-six-regular-font-family);
+  font-weight: var(--typography-six-regular-font-weight);
+  font-style: var(--typography-six-regular-font-style);
+  font-stretch: var(--typography-six-regular-font-stretch);
+  letter-spacing: var(--typography-six-regular-letter-spacing);
+  line-height: var(--typography-six-regular-line-height);
+  text-indent: var(--typography-six-regular-paragraph-indent);
+  margin-bottom: var(--typography-six-regular-paragraph-spacing);
+}
+
+.typography-six-semibold-brand {
+  font-size: var(--typography-six-semibold-brand-font-size);
+  text-decoration: var(--typography-six-semibold-brand-text-decoration);
+  font-family: var(--typography-six-semibold-brand-font-family);
+  font-weight: var(--typography-six-semibold-brand-font-weight);
+  font-style: var(--typography-six-semibold-brand-font-style);
+  font-stretch: var(--typography-six-semibold-brand-font-stretch);
+  letter-spacing: var(--typography-six-semibold-brand-letter-spacing);
+  line-height: var(--typography-six-semibold-brand-line-height);
+  text-indent: var(--typography-six-semibold-brand-paragraph-indent);
+  margin-bottom: var(--typography-six-semibold-brand-paragraph-spacing);
+}
+
+.typography-six-light {
+  font-size: var(--typography-six-light-font-size);
+  text-decoration: var(--typography-six-light-text-decoration);
+  font-family: var(--typography-six-light-font-family);
+  font-weight: var(--typography-six-light-font-weight);
+  font-style: var(--typography-six-light-font-style);
+  font-stretch: var(--typography-six-light-font-stretch);
+  letter-spacing: var(--typography-six-light-letter-spacing);
+  line-height: var(--typography-six-light-line-height);
+  text-indent: var(--typography-six-light-paragraph-indent);
+  margin-bottom: var(--typography-six-light-paragraph-spacing);
+}
+
+.typography-six-semibold-wallop {
+  font-size: var(--typography-six-semibold-wallop-font-size);
+  text-decoration: var(--typography-six-semibold-wallop-text-decoration);
+  font-family: var(--typography-six-semibold-wallop-font-family);
+  font-weight: var(--typography-six-semibold-wallop-font-weight);
+  font-style: var(--typography-six-semibold-wallop-font-style);
+  font-stretch: var(--typography-six-semibold-wallop-font-stretch);
+  letter-spacing: var(--typography-six-semibold-wallop-letter-spacing);
+  line-height: var(--typography-six-semibold-wallop-line-height);
+  text-indent: var(--typography-six-semibold-wallop-paragraph-indent);
+  margin-bottom: var(--typography-six-semibold-wallop-paragraph-spacing);
+}
+
+.typography-six-semibold-source-4 {
+  font-size: var(--typography-six-semibold-source-4-font-size);
+  text-decoration: var(--typography-six-semibold-source-4-text-decoration);
+  font-family: var(--typography-six-semibold-source-4-font-family);
+  font-weight: var(--typography-six-semibold-source-4-font-weight);
+  font-style: var(--typography-six-semibold-source-4-font-style);
+  font-stretch: var(--typography-six-semibold-source-4-font-stretch);
+  letter-spacing: var(--typography-six-semibold-source-4-letter-spacing);
+  line-height: var(--typography-six-semibold-source-4-line-height);
+  text-indent: var(--typography-six-semibold-source-4-paragraph-indent);
+  margin-bottom: var(--typography-six-semibold-source-4-paragraph-spacing);
+}
+
+.typography-xxxl-medium-italic-serif {
+  font-size: var(--typography-xxxl-medium-italic-serif-font-size);
+  text-decoration: var(--typography-xxxl-medium-italic-serif-text-decoration);
+  font-family: var(--typography-xxxl-medium-italic-serif-font-family);
+  font-weight: var(--typography-xxxl-medium-italic-serif-font-weight);
+  font-style: var(--typography-xxxl-medium-italic-serif-font-style);
+  font-stretch: var(--typography-xxxl-medium-italic-serif-font-stretch);
+  letter-spacing: var(--typography-xxxl-medium-italic-serif-letter-spacing);
+  line-height: var(--typography-xxxl-medium-italic-serif-line-height);
+  text-indent: var(--typography-xxxl-medium-italic-serif-paragraph-indent);
+  margin-bottom: var(--typography-xxxl-medium-italic-serif-paragraph-spacing);
+}
+
+.typography-xxl-medium-italic {
+  font-size: var(--typography-xxl-medium-italic-font-size);
+  text-decoration: var(--typography-xxl-medium-italic-text-decoration);
+  font-family: var(--typography-xxl-medium-italic-font-family);
+  font-weight: var(--typography-xxl-medium-italic-font-weight);
+  font-style: var(--typography-xxl-medium-italic-font-style);
+  font-stretch: var(--typography-xxl-medium-italic-font-stretch);
+  letter-spacing: var(--typography-xxl-medium-italic-letter-spacing);
+  line-height: var(--typography-xxl-medium-italic-line-height);
+  text-indent: var(--typography-xxl-medium-italic-paragraph-indent);
+  margin-bottom: var(--typography-xxl-medium-italic-paragraph-spacing);
+}
+
+.typography-xxl-italic-serif {
+  font-size: var(--typography-xxl-italic-serif-font-size);
+  text-decoration: var(--typography-xxl-italic-serif-text-decoration);
+  font-family: var(--typography-xxl-italic-serif-font-family);
+  font-weight: var(--typography-xxl-italic-serif-font-weight);
+  font-style: var(--typography-xxl-italic-serif-font-style);
+  font-stretch: var(--typography-xxl-italic-serif-font-stretch);
+  letter-spacing: var(--typography-xxl-italic-serif-letter-spacing);
+  line-height: var(--typography-xxl-italic-serif-line-height);
+  text-indent: var(--typography-xxl-italic-serif-paragraph-indent);
+  margin-bottom: var(--typography-xxl-italic-serif-paragraph-spacing);
+}
+
+.typography-xxl-bold {
+  font-size: var(--typography-xxl-bold-font-size);
+  text-decoration: var(--typography-xxl-bold-text-decoration);
+  font-family: var(--typography-xxl-bold-font-family);
+  font-weight: var(--typography-xxl-bold-font-weight);
+  font-style: var(--typography-xxl-bold-font-style);
+  font-stretch: var(--typography-xxl-bold-font-stretch);
+  letter-spacing: var(--typography-xxl-bold-letter-spacing);
+  line-height: var(--typography-xxl-bold-line-height);
+  text-indent: var(--typography-xxl-bold-paragraph-indent);
+  margin-bottom: var(--typography-xxl-bold-paragraph-spacing);
+}
+
+.typography-xxl-italic {
+  font-size: var(--typography-xxl-italic-font-size);
+  text-decoration: var(--typography-xxl-italic-text-decoration);
+  font-family: var(--typography-xxl-italic-font-family);
+  font-weight: var(--typography-xxl-italic-font-weight);
+  font-style: var(--typography-xxl-italic-font-style);
+  font-stretch: var(--typography-xxl-italic-font-stretch);
+  letter-spacing: var(--typography-xxl-italic-letter-spacing);
+  line-height: var(--typography-xxl-italic-line-height);
+  text-indent: var(--typography-xxl-italic-paragraph-indent);
+  margin-bottom: var(--typography-xxl-italic-paragraph-spacing);
+}
+
+.typography-xxl-regular {
+  font-size: var(--typography-xxl-regular-font-size);
+  text-decoration: var(--typography-xxl-regular-text-decoration);
+  font-family: var(--typography-xxl-regular-font-family);
+  font-weight: var(--typography-xxl-regular-font-weight);
+  font-style: var(--typography-xxl-regular-font-style);
+  font-stretch: var(--typography-xxl-regular-font-stretch);
+  letter-spacing: var(--typography-xxl-regular-letter-spacing);
+  line-height: var(--typography-xxl-regular-line-height);
+  text-indent: var(--typography-xxl-regular-paragraph-indent);
+  margin-bottom: var(--typography-xxl-regular-paragraph-spacing);
+}
+
+.typography-xxl-light {
+  font-size: var(--typography-xxl-light-font-size);
+  text-decoration: var(--typography-xxl-light-text-decoration);
+  font-family: var(--typography-xxl-light-font-family);
+  font-weight: var(--typography-xxl-light-font-weight);
+  font-style: var(--typography-xxl-light-font-style);
+  font-stretch: var(--typography-xxl-light-font-stretch);
+  letter-spacing: var(--typography-xxl-light-letter-spacing);
+  line-height: var(--typography-xxl-light-line-height);
+  text-indent: var(--typography-xxl-light-paragraph-indent);
+  margin-bottom: var(--typography-xxl-light-paragraph-spacing);
+}
+
+.typography-xl-medium-serif {
+  font-size: var(--typography-xl-medium-serif-font-size);
+  text-decoration: var(--typography-xl-medium-serif-text-decoration);
+  font-family: var(--typography-xl-medium-serif-font-family);
+  font-weight: var(--typography-xl-medium-serif-font-weight);
+  font-style: var(--typography-xl-medium-serif-font-style);
+  font-stretch: var(--typography-xl-medium-serif-font-stretch);
+  letter-spacing: var(--typography-xl-medium-serif-letter-spacing);
+  line-height: var(--typography-xl-medium-serif-line-height);
+  text-indent: var(--typography-xl-medium-serif-paragraph-indent);
+  margin-bottom: var(--typography-xl-medium-serif-paragraph-spacing);
+}
+
+.typography-xl-regular-serif {
+  font-size: var(--typography-xl-regular-serif-font-size);
+  text-decoration: var(--typography-xl-regular-serif-text-decoration);
+  font-family: var(--typography-xl-regular-serif-font-family);
+  font-weight: var(--typography-xl-regular-serif-font-weight);
+  font-style: var(--typography-xl-regular-serif-font-style);
+  font-stretch: var(--typography-xl-regular-serif-font-stretch);
+  letter-spacing: var(--typography-xl-regular-serif-letter-spacing);
+  line-height: var(--typography-xl-regular-serif-line-height);
+  text-indent: var(--typography-xl-regular-serif-paragraph-indent);
+  margin-bottom: var(--typography-xl-regular-serif-paragraph-spacing);
+}
+
+.typography-xl-italic-serif {
+  font-size: var(--typography-xl-italic-serif-font-size);
+  text-decoration: var(--typography-xl-italic-serif-text-decoration);
+  font-family: var(--typography-xl-italic-serif-font-family);
+  font-weight: var(--typography-xl-italic-serif-font-weight);
+  font-style: var(--typography-xl-italic-serif-font-style);
+  font-stretch: var(--typography-xl-italic-serif-font-stretch);
+  letter-spacing: var(--typography-xl-italic-serif-letter-spacing);
+  line-height: var(--typography-xl-italic-serif-line-height);
+  text-indent: var(--typography-xl-italic-serif-paragraph-indent);
+  margin-bottom: var(--typography-xl-italic-serif-paragraph-spacing);
+}
+
+.typography-xl-bold {
+  font-size: var(--typography-xl-bold-font-size);
+  text-decoration: var(--typography-xl-bold-text-decoration);
+  font-family: var(--typography-xl-bold-font-family);
+  font-weight: var(--typography-xl-bold-font-weight);
+  font-style: var(--typography-xl-bold-font-style);
+  font-stretch: var(--typography-xl-bold-font-stretch);
+  letter-spacing: var(--typography-xl-bold-letter-spacing);
+  line-height: var(--typography-xl-bold-line-height);
+  text-indent: var(--typography-xl-bold-paragraph-indent);
+  margin-bottom: var(--typography-xl-bold-paragraph-spacing);
+}
+
+.typography-xl-italic {
+  font-size: var(--typography-xl-italic-font-size);
+  text-decoration: var(--typography-xl-italic-text-decoration);
+  font-family: var(--typography-xl-italic-font-family);
+  font-weight: var(--typography-xl-italic-font-weight);
+  font-style: var(--typography-xl-italic-font-style);
+  font-stretch: var(--typography-xl-italic-font-stretch);
+  letter-spacing: var(--typography-xl-italic-letter-spacing);
+  line-height: var(--typography-xl-italic-line-height);
+  text-indent: var(--typography-xl-italic-paragraph-indent);
+  margin-bottom: var(--typography-xl-italic-paragraph-spacing);
+}
+
+.typography-xl-light {
+  font-size: var(--typography-xl-light-font-size);
+  text-decoration: var(--typography-xl-light-text-decoration);
+  font-family: var(--typography-xl-light-font-family);
+  font-weight: var(--typography-xl-light-font-weight);
+  font-style: var(--typography-xl-light-font-style);
+  font-stretch: var(--typography-xl-light-font-stretch);
+  letter-spacing: var(--typography-xl-light-letter-spacing);
+  line-height: var(--typography-xl-light-line-height);
+  text-indent: var(--typography-xl-light-paragraph-indent);
+  margin-bottom: var(--typography-xl-light-paragraph-spacing);
+}
+
+.typography-lg-bold {
+  font-size: var(--typography-lg-bold-font-size);
+  text-decoration: var(--typography-lg-bold-text-decoration);
+  font-family: var(--typography-lg-bold-font-family);
+  font-weight: var(--typography-lg-bold-font-weight);
+  font-style: var(--typography-lg-bold-font-style);
+  font-stretch: var(--typography-lg-bold-font-stretch);
+  letter-spacing: var(--typography-lg-bold-letter-spacing);
+  line-height: var(--typography-lg-bold-line-height);
+  text-indent: var(--typography-lg-bold-paragraph-indent);
+  margin-bottom: var(--typography-lg-bold-paragraph-spacing);
+}
+
+.typography-lg-regular {
+  font-size: var(--typography-lg-regular-font-size);
+  text-decoration: var(--typography-lg-regular-text-decoration);
+  font-family: var(--typography-lg-regular-font-family);
+  font-weight: var(--typography-lg-regular-font-weight);
+  font-style: var(--typography-lg-regular-font-style);
+  font-stretch: var(--typography-lg-regular-font-stretch);
+  letter-spacing: var(--typography-lg-regular-letter-spacing);
+  line-height: var(--typography-lg-regular-line-height);
+  text-indent: var(--typography-lg-regular-paragraph-indent);
+  margin-bottom: var(--typography-lg-regular-paragraph-spacing);
+}
+
+.typography-lg-italic {
+  font-size: var(--typography-lg-italic-font-size);
+  text-decoration: var(--typography-lg-italic-text-decoration);
+  font-family: var(--typography-lg-italic-font-family);
+  font-weight: var(--typography-lg-italic-font-weight);
+  font-style: var(--typography-lg-italic-font-style);
+  font-stretch: var(--typography-lg-italic-font-stretch);
+  letter-spacing: var(--typography-lg-italic-letter-spacing);
+  line-height: var(--typography-lg-italic-line-height);
+  text-indent: var(--typography-lg-italic-paragraph-indent);
+  margin-bottom: var(--typography-lg-italic-paragraph-spacing);
+}
+
+.typography-lg-light {
+  font-size: var(--typography-lg-light-font-size);
+  text-decoration: var(--typography-lg-light-text-decoration);
+  font-family: var(--typography-lg-light-font-family);
+  font-weight: var(--typography-lg-light-font-weight);
+  font-style: var(--typography-lg-light-font-style);
+  font-stretch: var(--typography-lg-light-font-stretch);
+  letter-spacing: var(--typography-lg-light-letter-spacing);
+  line-height: var(--typography-lg-light-line-height);
+  text-indent: var(--typography-lg-light-paragraph-indent);
+  margin-bottom: var(--typography-lg-light-paragraph-spacing);
+}
+
+.typography-lg-semibold-brand {
+  font-size: var(--typography-lg-semibold-brand-font-size);
+  text-decoration: var(--typography-lg-semibold-brand-text-decoration);
+  font-family: var(--typography-lg-semibold-brand-font-family);
+  font-weight: var(--typography-lg-semibold-brand-font-weight);
+  font-style: var(--typography-lg-semibold-brand-font-style);
+  font-stretch: var(--typography-lg-semibold-brand-font-stretch);
+  letter-spacing: var(--typography-lg-semibold-brand-letter-spacing);
+  line-height: var(--typography-lg-semibold-brand-line-height);
+  text-indent: var(--typography-lg-semibold-brand-paragraph-indent);
+  margin-bottom: var(--typography-lg-semibold-brand-paragraph-spacing);
+}
+
+.typography-lg-semibold-italic-serif {
+  font-size: var(--typography-lg-semibold-italic-serif-font-size);
+  text-decoration: var(--typography-lg-semibold-italic-serif-text-decoration);
+  font-family: var(--typography-lg-semibold-italic-serif-font-family);
+  font-weight: var(--typography-lg-semibold-italic-serif-font-weight);
+  font-style: var(--typography-lg-semibold-italic-serif-font-style);
+  font-stretch: var(--typography-lg-semibold-italic-serif-font-stretch);
+  letter-spacing: var(--typography-lg-semibold-italic-serif-letter-spacing);
+  line-height: var(--typography-lg-semibold-italic-serif-line-height);
+  text-indent: var(--typography-lg-semibold-italic-serif-paragraph-indent);
+  margin-bottom: var(--typography-lg-semibold-italic-serif-paragraph-spacing);
+}
+
+.typography-lg-medium-italic {
+  font-size: var(--typography-lg-medium-italic-font-size);
+  text-decoration: var(--typography-lg-medium-italic-text-decoration);
+  font-family: var(--typography-lg-medium-italic-font-family);
+  font-weight: var(--typography-lg-medium-italic-font-weight);
+  font-style: var(--typography-lg-medium-italic-font-style);
+  font-stretch: var(--typography-lg-medium-italic-font-stretch);
+  letter-spacing: var(--typography-lg-medium-italic-letter-spacing);
+  line-height: var(--typography-lg-medium-italic-line-height);
+  text-indent: var(--typography-lg-medium-italic-paragraph-indent);
+  margin-bottom: var(--typography-lg-medium-italic-paragraph-spacing);
+}
+
+.typography-md-semibold-brand {
+  font-size: var(--typography-md-semibold-brand-font-size);
+  text-decoration: var(--typography-md-semibold-brand-text-decoration);
+  font-family: var(--typography-md-semibold-brand-font-family);
+  font-weight: var(--typography-md-semibold-brand-font-weight);
+  font-style: var(--typography-md-semibold-brand-font-style);
+  font-stretch: var(--typography-md-semibold-brand-font-stretch);
+  letter-spacing: var(--typography-md-semibold-brand-letter-spacing);
+  line-height: var(--typography-md-semibold-brand-line-height);
+  text-indent: var(--typography-md-semibold-brand-paragraph-indent);
+  margin-bottom: var(--typography-md-semibold-brand-paragraph-spacing);
+}
+
+.typography-md-semibold-sans {
+  font-size: var(--typography-md-semibold-sans-font-size);
+  text-decoration: var(--typography-md-semibold-sans-text-decoration);
+  font-family: var(--typography-md-semibold-sans-font-family);
+  font-weight: var(--typography-md-semibold-sans-font-weight);
+  font-style: var(--typography-md-semibold-sans-font-style);
+  font-stretch: var(--typography-md-semibold-sans-font-stretch);
+  letter-spacing: var(--typography-md-semibold-sans-letter-spacing);
+  line-height: var(--typography-md-semibold-sans-line-height);
+  text-indent: var(--typography-md-semibold-sans-paragraph-indent);
+  margin-bottom: var(--typography-md-semibold-sans-paragraph-spacing);
+}
+
+.typography-md-medium-sans {
+  font-size: var(--typography-md-medium-sans-font-size);
+  text-decoration: var(--typography-md-medium-sans-text-decoration);
+  font-family: var(--typography-md-medium-sans-font-family);
+  font-weight: var(--typography-md-medium-sans-font-weight);
+  font-style: var(--typography-md-medium-sans-font-style);
+  font-stretch: var(--typography-md-medium-sans-font-stretch);
+  letter-spacing: var(--typography-md-medium-sans-letter-spacing);
+  line-height: var(--typography-md-medium-sans-line-height);
+  text-indent: var(--typography-md-medium-sans-paragraph-indent);
+  margin-bottom: var(--typography-md-medium-sans-paragraph-spacing);
+}
+
+.typography-md-regular-serif {
+  font-size: var(--typography-md-regular-serif-font-size);
+  text-decoration: var(--typography-md-regular-serif-text-decoration);
+  font-family: var(--typography-md-regular-serif-font-family);
+  font-weight: var(--typography-md-regular-serif-font-weight);
+  font-style: var(--typography-md-regular-serif-font-style);
+  font-stretch: var(--typography-md-regular-serif-font-stretch);
+  letter-spacing: var(--typography-md-regular-serif-letter-spacing);
+  line-height: var(--typography-md-regular-serif-line-height);
+  text-indent: var(--typography-md-regular-serif-paragraph-indent);
+  margin-bottom: var(--typography-md-regular-serif-paragraph-spacing);
+}
+
+.typography-md-italic-serif {
+  font-size: var(--typography-md-italic-serif-font-size);
+  text-decoration: var(--typography-md-italic-serif-text-decoration);
+  font-family: var(--typography-md-italic-serif-font-family);
+  font-weight: var(--typography-md-italic-serif-font-weight);
+  font-style: var(--typography-md-italic-serif-font-style);
+  font-stretch: var(--typography-md-italic-serif-font-stretch);
+  letter-spacing: var(--typography-md-italic-serif-letter-spacing);
+  line-height: var(--typography-md-italic-serif-line-height);
+  text-indent: var(--typography-md-italic-serif-paragraph-indent);
+  margin-bottom: var(--typography-md-italic-serif-paragraph-spacing);
+}
+
+.typography-md-bold {
+  font-size: var(--typography-md-bold-font-size);
+  text-decoration: var(--typography-md-bold-text-decoration);
+  font-family: var(--typography-md-bold-font-family);
+  font-weight: var(--typography-md-bold-font-weight);
+  font-style: var(--typography-md-bold-font-style);
+  font-stretch: var(--typography-md-bold-font-stretch);
+  letter-spacing: var(--typography-md-bold-letter-spacing);
+  line-height: var(--typography-md-bold-line-height);
+  text-indent: var(--typography-md-bold-paragraph-indent);
+  margin-bottom: var(--typography-md-bold-paragraph-spacing);
+}
+
+.typography-md-italic {
+  font-size: var(--typography-md-italic-font-size);
+  text-decoration: var(--typography-md-italic-text-decoration);
+  font-family: var(--typography-md-italic-font-family);
+  font-weight: var(--typography-md-italic-font-weight);
+  font-style: var(--typography-md-italic-font-style);
+  font-stretch: var(--typography-md-italic-font-stretch);
+  letter-spacing: var(--typography-md-italic-letter-spacing);
+  line-height: var(--typography-md-italic-line-height);
+  text-indent: var(--typography-md-italic-paragraph-indent);
+  margin-bottom: var(--typography-md-italic-paragraph-spacing);
+}
+
+.typography-md-light {
+  font-size: var(--typography-md-light-font-size);
+  text-decoration: var(--typography-md-light-text-decoration);
+  font-family: var(--typography-md-light-font-family);
+  font-weight: var(--typography-md-light-font-weight);
+  font-style: var(--typography-md-light-font-style);
+  font-stretch: var(--typography-md-light-font-stretch);
+  letter-spacing: var(--typography-md-light-letter-spacing);
+  line-height: var(--typography-md-light-line-height);
+  text-indent: var(--typography-md-light-paragraph-indent);
+  margin-bottom: var(--typography-md-light-paragraph-spacing);
+}
+
+.typography-md-semibold-italic-serif {
+  font-size: var(--typography-md-semibold-italic-serif-font-size);
+  text-decoration: var(--typography-md-semibold-italic-serif-text-decoration);
+  font-family: var(--typography-md-semibold-italic-serif-font-family);
+  font-weight: var(--typography-md-semibold-italic-serif-font-weight);
+  font-style: var(--typography-md-semibold-italic-serif-font-style);
+  font-stretch: var(--typography-md-semibold-italic-serif-font-stretch);
+  letter-spacing: var(--typography-md-semibold-italic-serif-letter-spacing);
+  line-height: var(--typography-md-semibold-italic-serif-line-height);
+  text-indent: var(--typography-md-semibold-italic-serif-paragraph-indent);
+  margin-bottom: var(--typography-md-semibold-italic-serif-paragraph-spacing);
+}
+
+.typography-sm-semibld-sans {
+  font-size: var(--typography-sm-semibld-sans-font-size);
+  text-decoration: var(--typography-sm-semibld-sans-text-decoration);
+  font-family: var(--typography-sm-semibld-sans-font-family);
+  font-weight: var(--typography-sm-semibld-sans-font-weight);
+  font-style: var(--typography-sm-semibld-sans-font-style);
+  font-stretch: var(--typography-sm-semibld-sans-font-stretch);
+  letter-spacing: var(--typography-sm-semibld-sans-letter-spacing);
+  line-height: var(--typography-sm-semibld-sans-line-height);
+  text-indent: var(--typography-sm-semibld-sans-paragraph-indent);
+  margin-bottom: var(--typography-sm-semibld-sans-paragraph-spacing);
+}
+
+.typography-sm-regular-serif {
+  font-size: var(--typography-sm-regular-serif-font-size);
+  text-decoration: var(--typography-sm-regular-serif-text-decoration);
+  font-family: var(--typography-sm-regular-serif-font-family);
+  font-weight: var(--typography-sm-regular-serif-font-weight);
+  font-style: var(--typography-sm-regular-serif-font-style);
+  font-stretch: var(--typography-sm-regular-serif-font-stretch);
+  letter-spacing: var(--typography-sm-regular-serif-letter-spacing);
+  line-height: var(--typography-sm-regular-serif-line-height);
+  text-indent: var(--typography-sm-regular-serif-paragraph-indent);
+  margin-bottom: var(--typography-sm-regular-serif-paragraph-spacing);
+}
+
+.typography-sm-regular-sans {
+  font-size: var(--typography-sm-regular-sans-font-size);
+  text-decoration: var(--typography-sm-regular-sans-text-decoration);
+  font-family: var(--typography-sm-regular-sans-font-family);
+  font-weight: var(--typography-sm-regular-sans-font-weight);
+  font-style: var(--typography-sm-regular-sans-font-style);
+  font-stretch: var(--typography-sm-regular-sans-font-stretch);
+  letter-spacing: var(--typography-sm-regular-sans-letter-spacing);
+  line-height: var(--typography-sm-regular-sans-line-height);
+  text-indent: var(--typography-sm-regular-sans-paragraph-indent);
+  margin-bottom: var(--typography-sm-regular-sans-paragraph-spacing);
+}
+
+.typography-sm-italic-serif {
+  font-size: var(--typography-sm-italic-serif-font-size);
+  text-decoration: var(--typography-sm-italic-serif-text-decoration);
+  font-family: var(--typography-sm-italic-serif-font-family);
+  font-weight: var(--typography-sm-italic-serif-font-weight);
+  font-style: var(--typography-sm-italic-serif-font-style);
+  font-stretch: var(--typography-sm-italic-serif-font-stretch);
+  letter-spacing: var(--typography-sm-italic-serif-letter-spacing);
+  line-height: var(--typography-sm-italic-serif-line-height);
+  text-indent: var(--typography-sm-italic-serif-paragraph-indent);
+  margin-bottom: var(--typography-sm-italic-serif-paragraph-spacing);
+}
+
+.typography-sm-bold {
+  font-size: var(--typography-sm-bold-font-size);
+  text-decoration: var(--typography-sm-bold-text-decoration);
+  font-family: var(--typography-sm-bold-font-family);
+  font-weight: var(--typography-sm-bold-font-weight);
+  font-style: var(--typography-sm-bold-font-style);
+  font-stretch: var(--typography-sm-bold-font-stretch);
+  letter-spacing: var(--typography-sm-bold-letter-spacing);
+  line-height: var(--typography-sm-bold-line-height);
+  text-indent: var(--typography-sm-bold-paragraph-indent);
+  margin-bottom: var(--typography-sm-bold-paragraph-spacing);
+}
+
+.typography-sm-semibold {
+  font-size: var(--typography-sm-semibold-font-size);
+  text-decoration: var(--typography-sm-semibold-text-decoration);
+  font-family: var(--typography-sm-semibold-font-family);
+  font-weight: var(--typography-sm-semibold-font-weight);
+  font-style: var(--typography-sm-semibold-font-style);
+  font-stretch: var(--typography-sm-semibold-font-stretch);
+  letter-spacing: var(--typography-sm-semibold-letter-spacing);
+  line-height: var(--typography-sm-semibold-line-height);
+  text-indent: var(--typography-sm-semibold-paragraph-indent);
+  margin-bottom: var(--typography-sm-semibold-paragraph-spacing);
+}
+
+.typography-sm-regular-tight {
+  font-size: var(--typography-sm-regular-tight-font-size);
+  text-decoration: var(--typography-sm-regular-tight-text-decoration);
+  font-family: var(--typography-sm-regular-tight-font-family);
+  font-weight: var(--typography-sm-regular-tight-font-weight);
+  font-style: var(--typography-sm-regular-tight-font-style);
+  font-stretch: var(--typography-sm-regular-tight-font-stretch);
+  letter-spacing: var(--typography-sm-regular-tight-letter-spacing);
+  line-height: var(--typography-sm-regular-tight-line-height);
+  text-indent: var(--typography-sm-regular-tight-paragraph-indent);
+  margin-bottom: var(--typography-sm-regular-tight-paragraph-spacing);
+}
+
+.typography-sm-light {
+  font-size: var(--typography-sm-light-font-size);
+  text-decoration: var(--typography-sm-light-text-decoration);
+  font-family: var(--typography-sm-light-font-family);
+  font-weight: var(--typography-sm-light-font-weight);
+  font-style: var(--typography-sm-light-font-style);
+  font-stretch: var(--typography-sm-light-font-stretch);
+  letter-spacing: var(--typography-sm-light-letter-spacing);
+  line-height: var(--typography-sm-light-line-height);
+  text-indent: var(--typography-sm-light-paragraph-indent);
+  margin-bottom: var(--typography-sm-light-paragraph-spacing);
+}
+
+.typography-sm-regular-sans-tight {
+  font-size: var(--typography-sm-regular-sans-tight-font-size);
+  text-decoration: var(--typography-sm-regular-sans-tight-text-decoration);
+  font-family: var(--typography-sm-regular-sans-tight-font-family);
+  font-weight: var(--typography-sm-regular-sans-tight-font-weight);
+  font-style: var(--typography-sm-regular-sans-tight-font-style);
+  font-stretch: var(--typography-sm-regular-sans-tight-font-stretch);
+  letter-spacing: var(--typography-sm-regular-sans-tight-letter-spacing);
+  line-height: var(--typography-sm-regular-sans-tight-line-height);
+  text-indent: var(--typography-sm-regular-sans-tight-paragraph-indent);
+  margin-bottom: var(--typography-sm-regular-sans-tight-paragraph-spacing);
+}
+
+.typography-sm-regular-serif-tight {
+  font-size: var(--typography-sm-regular-serif-tight-font-size);
+  text-decoration: var(--typography-sm-regular-serif-tight-text-decoration);
+  font-family: var(--typography-sm-regular-serif-tight-font-family);
+  font-weight: var(--typography-sm-regular-serif-tight-font-weight);
+  font-style: var(--typography-sm-regular-serif-tight-font-style);
+  font-stretch: var(--typography-sm-regular-serif-tight-font-stretch);
+  letter-spacing: var(--typography-sm-regular-serif-tight-letter-spacing);
+  line-height: var(--typography-sm-regular-serif-tight-line-height);
+  text-indent: var(--typography-sm-regular-serif-tight-paragraph-indent);
+  margin-bottom: var(--typography-sm-regular-serif-tight-paragraph-spacing);
+}
+
+.typography-xs-semibold-sans {
+  font-size: var(--typography-xs-semibold-sans-font-size);
+  text-decoration: var(--typography-xs-semibold-sans-text-decoration);
+  font-family: var(--typography-xs-semibold-sans-font-family);
+  font-weight: var(--typography-xs-semibold-sans-font-weight);
+  font-style: var(--typography-xs-semibold-sans-font-style);
+  font-stretch: var(--typography-xs-semibold-sans-font-stretch);
+  letter-spacing: var(--typography-xs-semibold-sans-letter-spacing);
+  line-height: var(--typography-xs-semibold-sans-line-height);
+  text-indent: var(--typography-xs-semibold-sans-paragraph-indent);
+  margin-bottom: var(--typography-xs-semibold-sans-paragraph-spacing);
+}
+
+.typography-xs-regular-sans {
+  font-size: var(--typography-xs-regular-sans-font-size);
+  text-decoration: var(--typography-xs-regular-sans-text-decoration);
+  font-family: var(--typography-xs-regular-sans-font-family);
+  font-weight: var(--typography-xs-regular-sans-font-weight);
+  font-style: var(--typography-xs-regular-sans-font-style);
+  font-stretch: var(--typography-xs-regular-sans-font-stretch);
+  letter-spacing: var(--typography-xs-regular-sans-letter-spacing);
+  line-height: var(--typography-xs-regular-sans-line-height);
+  text-indent: var(--typography-xs-regular-sans-paragraph-indent);
+  margin-bottom: var(--typography-xs-regular-sans-paragraph-spacing);
+}
+
+.typography-xs-italic-serif {
+  font-size: var(--typography-xs-italic-serif-font-size);
+  text-decoration: var(--typography-xs-italic-serif-text-decoration);
+  font-family: var(--typography-xs-italic-serif-font-family);
+  font-weight: var(--typography-xs-italic-serif-font-weight);
+  font-style: var(--typography-xs-italic-serif-font-style);
+  font-stretch: var(--typography-xs-italic-serif-font-stretch);
+  letter-spacing: var(--typography-xs-italic-serif-letter-spacing);
+  line-height: var(--typography-xs-italic-serif-line-height);
+  text-indent: var(--typography-xs-italic-serif-paragraph-indent);
+  margin-bottom: var(--typography-xs-italic-serif-paragraph-spacing);
+}
+
+.typography-xxs-bold-sans {
+  font-size: var(--typography-xxs-bold-sans-font-size);
+  text-decoration: var(--typography-xxs-bold-sans-text-decoration);
+  font-family: var(--typography-xxs-bold-sans-font-family);
+  font-weight: var(--typography-xxs-bold-sans-font-weight);
+  font-style: var(--typography-xxs-bold-sans-font-style);
+  font-stretch: var(--typography-xxs-bold-sans-font-stretch);
+  letter-spacing: var(--typography-xxs-bold-sans-letter-spacing);
+  line-height: var(--typography-xxs-bold-sans-line-height);
+  text-indent: var(--typography-xxs-bold-sans-paragraph-indent);
+  margin-bottom: var(--typography-xxs-bold-sans-paragraph-spacing);
+}
+
+.typography-xxs-regular-serif {
+  font-size: var(--typography-xxs-regular-serif-font-size);
+  text-decoration: var(--typography-xxs-regular-serif-text-decoration);
+  font-family: var(--typography-xxs-regular-serif-font-family);
+  font-weight: var(--typography-xxs-regular-serif-font-weight);
+  font-style: var(--typography-xxs-regular-serif-font-style);
+  font-stretch: var(--typography-xxs-regular-serif-font-stretch);
+  letter-spacing: var(--typography-xxs-regular-serif-letter-spacing);
+  line-height: var(--typography-xxs-regular-serif-line-height);
+  text-indent: var(--typography-xxs-regular-serif-paragraph-indent);
+  margin-bottom: var(--typography-xxs-regular-serif-paragraph-spacing);
+}
+
+.typography-xxs-bold {
+  font-size: var(--typography-xxs-bold-font-size);
+  text-decoration: var(--typography-xxs-bold-text-decoration);
+  font-family: var(--typography-xxs-bold-font-family);
+  font-weight: var(--typography-xxs-bold-font-weight);
+  font-style: var(--typography-xxs-bold-font-style);
+  font-stretch: var(--typography-xxs-bold-font-stretch);
+  letter-spacing: var(--typography-xxs-bold-letter-spacing);
+  line-height: var(--typography-xxs-bold-line-height);
+  text-indent: var(--typography-xxs-bold-paragraph-indent);
+  margin-bottom: var(--typography-xxs-bold-paragraph-spacing);
+}
+
+.typography-xxs-italic {
+  font-size: var(--typography-xxs-italic-font-size);
+  text-decoration: var(--typography-xxs-italic-text-decoration);
+  font-family: var(--typography-xxs-italic-font-family);
+  font-weight: var(--typography-xxs-italic-font-weight);
+  font-style: var(--typography-xxs-italic-font-style);
+  font-stretch: var(--typography-xxs-italic-font-stretch);
+  letter-spacing: var(--typography-xxs-italic-letter-spacing);
+  line-height: var(--typography-xxs-italic-line-height);
+  text-indent: var(--typography-xxs-italic-paragraph-indent);
+  margin-bottom: var(--typography-xxs-italic-paragraph-spacing);
+}
+
+.typography-xxs-light {
+  font-size: var(--typography-xxs-light-font-size);
+  text-decoration: var(--typography-xxs-light-text-decoration);
+  font-family: var(--typography-xxs-light-font-family);
+  font-weight: var(--typography-xxs-light-font-weight);
+  font-style: var(--typography-xxs-light-font-style);
+  font-stretch: var(--typography-xxs-light-font-stretch);
+  letter-spacing: var(--typography-xxs-light-letter-spacing);
+  line-height: var(--typography-xxs-light-line-height);
+  text-indent: var(--typography-xxs-light-paragraph-indent);
+  margin-bottom: var(--typography-xxs-light-paragraph-spacing);
+}
+
+.typography-ty-bold-sans {
+  font-size: var(--typography-ty-bold-sans-font-size);
+  text-decoration: var(--typography-ty-bold-sans-text-decoration);
+  font-family: var(--typography-ty-bold-sans-font-family);
+  font-weight: var(--typography-ty-bold-sans-font-weight);
+  font-style: var(--typography-ty-bold-sans-font-style);
+  font-stretch: var(--typography-ty-bold-sans-font-stretch);
+  letter-spacing: var(--typography-ty-bold-sans-letter-spacing);
+  line-height: var(--typography-ty-bold-sans-line-height);
+  text-indent: var(--typography-ty-bold-sans-paragraph-indent);
+  margin-bottom: var(--typography-ty-bold-sans-paragraph-spacing);
+}
+
+.typography-ty-regular-sans {
+  font-size: var(--typography-ty-regular-sans-font-size);
+  text-decoration: var(--typography-ty-regular-sans-text-decoration);
+  font-family: var(--typography-ty-regular-sans-font-family);
+  font-weight: var(--typography-ty-regular-sans-font-weight);
+  font-style: var(--typography-ty-regular-sans-font-style);
+  font-stretch: var(--typography-ty-regular-sans-font-stretch);
+  letter-spacing: var(--typography-ty-regular-sans-letter-spacing);
+  line-height: var(--typography-ty-regular-sans-line-height);
+  text-indent: var(--typography-ty-regular-sans-paragraph-indent);
+  margin-bottom: var(--typography-ty-regular-sans-paragraph-spacing);
+}
+

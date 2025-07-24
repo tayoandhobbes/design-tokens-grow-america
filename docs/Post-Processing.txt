@@ -1,0 +1,53 @@
+Post-Processing Design Tokens with Style Dictionary
+
+Overview
+
+This document summarizes the steps taken to post-process design tokens generated with Style Dictionary. The goal was to transform raw rem-based tokens into developer-friendly CSS, convert units from rem to px, clean typography variables, and generate utility classes.
+
+We modularized and extended the build process for better maintainability and output control.
+
+⸻
+
+Folder Structure
+
+scripts/
+└── postprocess/
+    ├── index.js
+    ├── processStroke.js
+    ├── processColor.js
+    ├── processOpacity.js
+    ├── processTypographyTokens.js
+    ├── processTypographyClasses.js
+    ├── processSpacing.js
+    ├── processRadius.js
+    └── processMedia.js
+
+
+    What We Did
+	1.	Converted rem → px
+Applied to stroke, spacing, radius, typography, and media tokens.
+	2.	Cleaned variable names
+Removed emojis and normalized special characters from typography tokens.
+	3.	Injected alias variables
+Created alternate --var() names for selected color and opacity tokens.
+	4.	Generated utility CSS classes
+Typography tokens were grouped into CSS utility classes based on property types (e.g. font-size, line-height, etc.).
+	5.	Modularized the build script
+Split a single monolithic postprocess.js file into multiple, focused modules.
+	6.	Created a main orchestrator
+index.js runs all post-processing steps in a clear, sequential order.
+	7.	Fixed broken JSON in package.json
+Removed inline comments (//) which are invalid in JSON format.
+	8.	Improved CSS class generation
+Fixed the logic to avoid splitting variable names into arbitrary suffixes like -font, -text, etc.
+
+How to Use
+	1.	Ensure you’re using Node.js and your package.json includes:
+    "type": "module"
+    	2.	Add this script to your package.json:
+        "scripts": {
+  "build": "node scripts/postprocess/index.js"
+}
+3.	Run the build process:
+npm run build
+This applies all post-processing tasks, producing px-based CSS tokens and developer-ready utility classes. The results are aligned with Figma specs and ready for integration into any front-end system.

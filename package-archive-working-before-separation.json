@@ -1,0 +1,11 @@
+{
+  "name": "clean-design-tokens",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+     "build": "node build-tokens.js && node postprocess.js"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.8.0"
+  }
+}
