@@ -1,0 +1,392 @@
+/* Typography Utility Classes (SCSS) */
+
+.typography-super-medium-brand-impact {
+  font-size: #{$typography-super-medium-brand-impact-font-size};
+  text-decoration: #{$typography-super-medium-brand-impact-text-decoration};
+  font-family: #{$typography-super-medium-brand-impact-font-family};
+  font-weight: #{$typography-super-medium-brand-impact-font-weight};
+  font-style: #{$typography-super-medium-brand-impact-font-style};
+  font-stretch: #{$typography-super-medium-brand-impact-font-stretch};
+  letter-spacing: #{$typography-super-medium-brand-impact-letter-spacing};
+  line-height: #{$typography-super-medium-brand-impact-line-height};
+  text-indent: #{$typography-super-medium-brand-impact-paragraph-indent};
+  margin-bottom: #{$typography-super-medium-brand-impact-paragraph-spacing};
+}
+
+.typography-display-medium-brand-impact {
+  font-size: #{$typography-display-medium-brand-impact-font-size};
+  text-decoration: #{$typography-display-medium-brand-impact-text-decoration};
+  font-family: #{$typography-display-medium-brand-impact-font-family};
+  font-weight: #{$typography-display-medium-brand-impact-font-weight};
+  font-style: #{$typography-display-medium-brand-impact-font-style};
+  font-stretch: #{$typography-display-medium-brand-impact-font-stretch};
+  letter-spacing: #{$typography-display-medium-brand-impact-letter-spacing};
+  line-height: #{$typography-display-medium-brand-impact-line-height};
+  text-indent: #{$typography-display-medium-brand-impact-paragraph-indent};
+  margin-bottom: #{$typography-display-medium-brand-impact-paragraph-spacing};
+}
+
+.typography-display-italic-serif-impact {
+  font-size: #{$typography-display-italic-serif-impact-font-size};
+  text-decoration: #{$typography-display-italic-serif-impact-text-decoration};
+  font-family: #{$typography-display-italic-serif-impact-font-family};
+  font-weight: #{$typography-display-italic-serif-impact-font-weight};
+  font-style: #{$typography-display-italic-serif-impact-font-style};
+  font-stretch: #{$typography-display-italic-serif-impact-font-stretch};
+  letter-spacing: #{$typography-display-italic-serif-impact-letter-spacing};
+  line-height: #{$typography-display-italic-serif-impact-line-height};
+  text-indent: #{$typography-display-italic-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-display-italic-serif-impact-paragraph-spacing};
+}
+
+.typography-h1-medium-brand-impact {
+  font-size: #{$typography-h1-medium-brand-impact-font-size};
+  text-decoration: #{$typography-h1-medium-brand-impact-text-decoration};
+  font-family: #{$typography-h1-medium-brand-impact-font-family};
+  font-weight: #{$typography-h1-medium-brand-impact-font-weight};
+  font-style: #{$typography-h1-medium-brand-impact-font-style};
+  font-stretch: #{$typography-h1-medium-brand-impact-font-stretch};
+  letter-spacing: #{$typography-h1-medium-brand-impact-letter-spacing};
+  line-height: #{$typography-h1-medium-brand-impact-line-height};
+  text-indent: #{$typography-h1-medium-brand-impact-paragraph-indent};
+  margin-bottom: #{$typography-h1-medium-brand-impact-paragraph-spacing};
+}
+
+.typography-h1-semibold-sans-impact {
+  font-size: #{$typography-h1-semibold-sans-impact-font-size};
+  text-decoration: #{$typography-h1-semibold-sans-impact-text-decoration};
+  font-family: #{$typography-h1-semibold-sans-impact-font-family};
+  font-weight: #{$typography-h1-semibold-sans-impact-font-weight};
+  font-style: #{$typography-h1-semibold-sans-impact-font-style};
+  font-stretch: #{$typography-h1-semibold-sans-impact-font-stretch};
+  letter-spacing: #{$typography-h1-semibold-sans-impact-letter-spacing};
+  line-height: #{$typography-h1-semibold-sans-impact-line-height};
+  text-indent: #{$typography-h1-semibold-sans-impact-paragraph-indent};
+  margin-bottom: #{$typography-h1-semibold-sans-impact-paragraph-spacing};
+}
+
+.typography-h1-regular-sans-impact {
+  font-size: #{$typography-h1-regular-sans-impact-font-size};
+  text-decoration: #{$typography-h1-regular-sans-impact-text-decoration};
+  font-family: #{$typography-h1-regular-sans-impact-font-family};
+  font-weight: #{$typography-h1-regular-sans-impact-font-weight};
+  font-style: #{$typography-h1-regular-sans-impact-font-style};
+  font-stretch: #{$typography-h1-regular-sans-impact-font-stretch};
+  letter-spacing: #{$typography-h1-regular-sans-impact-letter-spacing};
+  line-height: #{$typography-h1-regular-sans-impact-line-height};
+  text-indent: #{$typography-h1-regular-sans-impact-paragraph-indent};
+  margin-bottom: #{$typography-h1-regular-sans-impact-paragraph-spacing};
+}
+
+.typography-h2-medium-italic-serif-impact {
+  font-size: #{$typography-h2-medium-italic-serif-impact-font-size};
+  text-decoration: #{$typography-h2-medium-italic-serif-impact-text-decoration};
+  font-family: #{$typography-h2-medium-italic-serif-impact-font-family};
+  font-weight: #{$typography-h2-medium-italic-serif-impact-font-weight};
+  font-style: #{$typography-h2-medium-italic-serif-impact-font-style};
+  font-stretch: #{$typography-h2-medium-italic-serif-impact-font-stretch};
+  letter-spacing: #{$typography-h2-medium-italic-serif-impact-letter-spacing};
+  line-height: #{$typography-h2-medium-italic-serif-impact-line-height};
+  text-indent: #{$typography-h2-medium-italic-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-h2-medium-italic-serif-impact-paragraph-spacing};
+}
+
+.typography-h2-medium-brand-impact {
+  font-size: #{$typography-h2-medium-brand-impact-font-size};
+  text-decoration: #{$typography-h2-medium-brand-impact-text-decoration};
+  font-family: #{$typography-h2-medium-brand-impact-font-family};
+  font-weight: #{$typography-h2-medium-brand-impact-font-weight};
+  font-style: #{$typography-h2-medium-brand-impact-font-style};
+  font-stretch: #{$typography-h2-medium-brand-impact-font-stretch};
+  letter-spacing: #{$typography-h2-medium-brand-impact-letter-spacing};
+  line-height: #{$typography-h2-medium-brand-impact-line-height};
+  text-indent: #{$typography-h2-medium-brand-impact-paragraph-indent};
+  margin-bottom: #{$typography-h2-medium-brand-impact-paragraph-spacing};
+}
+
+.typography-h3-semibold-sans-impact {
+  font-size: #{$typography-h3-semibold-sans-impact-font-size};
+  text-decoration: #{$typography-h3-semibold-sans-impact-text-decoration};
+  font-family: #{$typography-h3-semibold-sans-impact-font-family};
+  font-weight: #{$typography-h3-semibold-sans-impact-font-weight};
+  font-style: #{$typography-h3-semibold-sans-impact-font-style};
+  font-stretch: #{$typography-h3-semibold-sans-impact-font-stretch};
+  letter-spacing: #{$typography-h3-semibold-sans-impact-letter-spacing};
+  line-height: #{$typography-h3-semibold-sans-impact-line-height};
+  text-indent: #{$typography-h3-semibold-sans-impact-paragraph-indent};
+  margin-bottom: #{$typography-h3-semibold-sans-impact-paragraph-spacing};
+}
+
+.typography-h3-h3-regular-serif-impact {
+  font-size: #{$typography-h3-h3-regular-serif-impact-font-size};
+  text-decoration: #{$typography-h3-h3-regular-serif-impact-text-decoration};
+  font-family: #{$typography-h3-h3-regular-serif-impact-font-family};
+  font-weight: #{$typography-h3-h3-regular-serif-impact-font-weight};
+  font-style: #{$typography-h3-h3-regular-serif-impact-font-style};
+  font-stretch: #{$typography-h3-h3-regular-serif-impact-font-stretch};
+  letter-spacing: #{$typography-h3-h3-regular-serif-impact-letter-spacing};
+  line-height: #{$typography-h3-h3-regular-serif-impact-line-height};
+  text-indent: #{$typography-h3-h3-regular-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-h3-h3-regular-serif-impact-paragraph-spacing};
+}
+
+.typography-h4-medium-italic-serif-impact {
+  font-size: #{$typography-h4-medium-italic-serif-impact-font-size};
+  text-decoration: #{$typography-h4-medium-italic-serif-impact-text-decoration};
+  font-family: #{$typography-h4-medium-italic-serif-impact-font-family};
+  font-weight: #{$typography-h4-medium-italic-serif-impact-font-weight};
+  font-style: #{$typography-h4-medium-italic-serif-impact-font-style};
+  font-stretch: #{$typography-h4-medium-italic-serif-impact-font-stretch};
+  letter-spacing: #{$typography-h4-medium-italic-serif-impact-letter-spacing};
+  line-height: #{$typography-h4-medium-italic-serif-impact-line-height};
+  text-indent: #{$typography-h4-medium-italic-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-h4-medium-italic-serif-impact-paragraph-spacing};
+}
+
+.typography-h4-medium-brand-impact {
+  font-size: #{$typography-h4-medium-brand-impact-font-size};
+  text-decoration: #{$typography-h4-medium-brand-impact-text-decoration};
+  font-family: #{$typography-h4-medium-brand-impact-font-family};
+  font-weight: #{$typography-h4-medium-brand-impact-font-weight};
+  font-style: #{$typography-h4-medium-brand-impact-font-style};
+  font-stretch: #{$typography-h4-medium-brand-impact-font-stretch};
+  letter-spacing: #{$typography-h4-medium-brand-impact-letter-spacing};
+  line-height: #{$typography-h4-medium-brand-impact-line-height};
+  text-indent: #{$typography-h4-medium-brand-impact-paragraph-indent};
+  margin-bottom: #{$typography-h4-medium-brand-impact-paragraph-spacing};
+}
+
+.typography-h5-medium-brand-impact {
+  font-size: #{$typography-h5-medium-brand-impact-font-size};
+  text-decoration: #{$typography-h5-medium-brand-impact-text-decoration};
+  font-family: #{$typography-h5-medium-brand-impact-font-family};
+  font-weight: #{$typography-h5-medium-brand-impact-font-weight};
+  font-style: #{$typography-h5-medium-brand-impact-font-style};
+  font-stretch: #{$typography-h5-medium-brand-impact-font-stretch};
+  letter-spacing: #{$typography-h5-medium-brand-impact-letter-spacing};
+  line-height: #{$typography-h5-medium-brand-impact-line-height};
+  text-indent: #{$typography-h5-medium-brand-impact-paragraph-indent};
+  margin-bottom: #{$typography-h5-medium-brand-impact-paragraph-spacing};
+}
+
+.typography-h5-semibold-sans-impact {
+  font-size: #{$typography-h5-semibold-sans-impact-font-size};
+  text-decoration: #{$typography-h5-semibold-sans-impact-text-decoration};
+  font-family: #{$typography-h5-semibold-sans-impact-font-family};
+  font-weight: #{$typography-h5-semibold-sans-impact-font-weight};
+  font-style: #{$typography-h5-semibold-sans-impact-font-style};
+  font-stretch: #{$typography-h5-semibold-sans-impact-font-stretch};
+  letter-spacing: #{$typography-h5-semibold-sans-impact-letter-spacing};
+  line-height: #{$typography-h5-semibold-sans-impact-line-height};
+  text-indent: #{$typography-h5-semibold-sans-impact-paragraph-indent};
+  margin-bottom: #{$typography-h5-semibold-sans-impact-paragraph-spacing};
+}
+
+.typography-3xl-medium-italic-serif-impact {
+  font-size: #{$typography-3xl-medium-italic-serif-impact-font-size};
+  text-decoration: #{$typography-3xl-medium-italic-serif-impact-text-decoration};
+  font-family: #{$typography-3xl-medium-italic-serif-impact-font-family};
+  font-weight: #{$typography-3xl-medium-italic-serif-impact-font-weight};
+  font-style: #{$typography-3xl-medium-italic-serif-impact-font-style};
+  font-stretch: #{$typography-3xl-medium-italic-serif-impact-font-stretch};
+  letter-spacing: #{$typography-3xl-medium-italic-serif-impact-letter-spacing};
+  line-height: #{$typography-3xl-medium-italic-serif-impact-line-height};
+  text-indent: #{$typography-3xl-medium-italic-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-3xl-medium-italic-serif-impact-paragraph-spacing};
+}
+
+.typography-2xl-italic-serif-impact {
+  font-size: #{$typography-2xl-italic-serif-impact-font-size};
+  text-decoration: #{$typography-2xl-italic-serif-impact-text-decoration};
+  font-family: #{$typography-2xl-italic-serif-impact-font-family};
+  font-weight: #{$typography-2xl-italic-serif-impact-font-weight};
+  font-style: #{$typography-2xl-italic-serif-impact-font-style};
+  font-stretch: #{$typography-2xl-italic-serif-impact-font-stretch};
+  letter-spacing: #{$typography-2xl-italic-serif-impact-letter-spacing};
+  line-height: #{$typography-2xl-italic-serif-impact-line-height};
+  text-indent: #{$typography-2xl-italic-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-2xl-italic-serif-impact-paragraph-spacing};
+}
+
+.typography-xl-medium-italic-seric-impact {
+  font-size: #{$typography-xl-medium-italic-seric-impact-font-size};
+  text-decoration: #{$typography-xl-medium-italic-seric-impact-text-decoration};
+  font-family: #{$typography-xl-medium-italic-seric-impact-font-family};
+  font-weight: #{$typography-xl-medium-italic-seric-impact-font-weight};
+  font-style: #{$typography-xl-medium-italic-seric-impact-font-style};
+  font-stretch: #{$typography-xl-medium-italic-seric-impact-font-stretch};
+  letter-spacing: #{$typography-xl-medium-italic-seric-impact-letter-spacing};
+  line-height: #{$typography-xl-medium-italic-seric-impact-line-height};
+  text-indent: #{$typography-xl-medium-italic-seric-impact-paragraph-indent};
+  margin-bottom: #{$typography-xl-medium-italic-seric-impact-paragraph-spacing};
+}
+
+.typography-md-medium-sans-impact {
+  font-size: #{$typography-md-medium-sans-impact-font-size};
+  text-decoration: #{$typography-md-medium-sans-impact-text-decoration};
+  font-family: #{$typography-md-medium-sans-impact-font-family};
+  font-weight: #{$typography-md-medium-sans-impact-font-weight};
+  font-style: #{$typography-md-medium-sans-impact-font-style};
+  font-stretch: #{$typography-md-medium-sans-impact-font-stretch};
+  letter-spacing: #{$typography-md-medium-sans-impact-letter-spacing};
+  line-height: #{$typography-md-medium-sans-impact-line-height};
+  text-indent: #{$typography-md-medium-sans-impact-paragraph-indent};
+  margin-bottom: #{$typography-md-medium-sans-impact-paragraph-spacing};
+}
+
+.typography-md-regular-serif-impact {
+  font-size: #{$typography-md-regular-serif-impact-font-size};
+  text-decoration: #{$typography-md-regular-serif-impact-text-decoration};
+  font-family: #{$typography-md-regular-serif-impact-font-family};
+  font-weight: #{$typography-md-regular-serif-impact-font-weight};
+  font-style: #{$typography-md-regular-serif-impact-font-style};
+  font-stretch: #{$typography-md-regular-serif-impact-font-stretch};
+  letter-spacing: #{$typography-md-regular-serif-impact-letter-spacing};
+  line-height: #{$typography-md-regular-serif-impact-line-height};
+  text-indent: #{$typography-md-regular-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-md-regular-serif-impact-paragraph-spacing};
+}
+
+.typography-md-semibold-sans-impact {
+  font-size: #{$typography-md-semibold-sans-impact-font-size};
+  text-decoration: #{$typography-md-semibold-sans-impact-text-decoration};
+  font-family: #{$typography-md-semibold-sans-impact-font-family};
+  font-weight: #{$typography-md-semibold-sans-impact-font-weight};
+  font-style: #{$typography-md-semibold-sans-impact-font-style};
+  font-stretch: #{$typography-md-semibold-sans-impact-font-stretch};
+  letter-spacing: #{$typography-md-semibold-sans-impact-letter-spacing};
+  line-height: #{$typography-md-semibold-sans-impact-line-height};
+  text-indent: #{$typography-md-semibold-sans-impact-paragraph-indent};
+  margin-bottom: #{$typography-md-semibold-sans-impact-paragraph-spacing};
+}
+
+.typography-md-semibold-italic-serif-impact {
+  font-size: #{$typography-md-semibold-italic-serif-impact-font-size};
+  text-decoration: #{$typography-md-semibold-italic-serif-impact-text-decoration};
+  font-family: #{$typography-md-semibold-italic-serif-impact-font-family};
+  font-weight: #{$typography-md-semibold-italic-serif-impact-font-weight};
+  font-style: #{$typography-md-semibold-italic-serif-impact-font-style};
+  font-stretch: #{$typography-md-semibold-italic-serif-impact-font-stretch};
+  letter-spacing: #{$typography-md-semibold-italic-serif-impact-letter-spacing};
+  line-height: #{$typography-md-semibold-italic-serif-impact-line-height};
+  text-indent: #{$typography-md-semibold-italic-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-md-semibold-italic-serif-impact-paragraph-spacing};
+}
+
+.typography-sm-regular-serif-impact {
+  font-size: #{$typography-sm-regular-serif-impact-font-size};
+  text-decoration: #{$typography-sm-regular-serif-impact-text-decoration};
+  font-family: #{$typography-sm-regular-serif-impact-font-family};
+  font-weight: #{$typography-sm-regular-serif-impact-font-weight};
+  font-style: #{$typography-sm-regular-serif-impact-font-style};
+  font-stretch: #{$typography-sm-regular-serif-impact-font-stretch};
+  letter-spacing: #{$typography-sm-regular-serif-impact-letter-spacing};
+  line-height: #{$typography-sm-regular-serif-impact-line-height};
+  text-indent: #{$typography-sm-regular-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-sm-regular-serif-impact-paragraph-spacing};
+}
+
+.typography-sm-regular-serif-tight-impact {
+  font-size: #{$typography-sm-regular-serif-tight-impact-font-size};
+  text-decoration: #{$typography-sm-regular-serif-tight-impact-text-decoration};
+  font-family: #{$typography-sm-regular-serif-tight-impact-font-family};
+  font-weight: #{$typography-sm-regular-serif-tight-impact-font-weight};
+  font-style: #{$typography-sm-regular-serif-tight-impact-font-style};
+  font-stretch: #{$typography-sm-regular-serif-tight-impact-font-stretch};
+  letter-spacing: #{$typography-sm-regular-serif-tight-impact-letter-spacing};
+  line-height: #{$typography-sm-regular-serif-tight-impact-line-height};
+  text-indent: #{$typography-sm-regular-serif-tight-impact-paragraph-indent};
+  margin-bottom: #{$typography-sm-regular-serif-tight-impact-paragraph-spacing};
+}
+
+.typography-sm-semibold-sans-impact {
+  font-size: #{$typography-sm-semibold-sans-impact-font-size};
+  text-decoration: #{$typography-sm-semibold-sans-impact-text-decoration};
+  font-family: #{$typography-sm-semibold-sans-impact-font-family};
+  font-weight: #{$typography-sm-semibold-sans-impact-font-weight};
+  font-style: #{$typography-sm-semibold-sans-impact-font-style};
+  font-stretch: #{$typography-sm-semibold-sans-impact-font-stretch};
+  letter-spacing: #{$typography-sm-semibold-sans-impact-letter-spacing};
+  line-height: #{$typography-sm-semibold-sans-impact-line-height};
+  text-indent: #{$typography-sm-semibold-sans-impact-paragraph-indent};
+  margin-bottom: #{$typography-sm-semibold-sans-impact-paragraph-spacing};
+}
+
+.typography-sm-regular-sans-impact {
+  font-size: #{$typography-sm-regular-sans-impact-font-size};
+  text-decoration: #{$typography-sm-regular-sans-impact-text-decoration};
+  font-family: #{$typography-sm-regular-sans-impact-font-family};
+  font-weight: #{$typography-sm-regular-sans-impact-font-weight};
+  font-style: #{$typography-sm-regular-sans-impact-font-style};
+  font-stretch: #{$typography-sm-regular-sans-impact-font-stretch};
+  letter-spacing: #{$typography-sm-regular-sans-impact-letter-spacing};
+  line-height: #{$typography-sm-regular-sans-impact-line-height};
+  text-indent: #{$typography-sm-regular-sans-impact-paragraph-indent};
+  margin-bottom: #{$typography-sm-regular-sans-impact-paragraph-spacing};
+}
+
+.typography-sm-italic-serif-impact {
+  font-size: #{$typography-sm-italic-serif-impact-font-size};
+  text-decoration: #{$typography-sm-italic-serif-impact-text-decoration};
+  font-family: #{$typography-sm-italic-serif-impact-font-family};
+  font-weight: #{$typography-sm-italic-serif-impact-font-weight};
+  font-style: #{$typography-sm-italic-serif-impact-font-style};
+  font-stretch: #{$typography-sm-italic-serif-impact-font-stretch};
+  letter-spacing: #{$typography-sm-italic-serif-impact-letter-spacing};
+  line-height: #{$typography-sm-italic-serif-impact-line-height};
+  text-indent: #{$typography-sm-italic-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-sm-italic-serif-impact-paragraph-spacing};
+}
+
+.typography-xs-semibold-sans-impact {
+  font-size: #{$typography-xs-semibold-sans-impact-font-size};
+  text-decoration: #{$typography-xs-semibold-sans-impact-text-decoration};
+  font-family: #{$typography-xs-semibold-sans-impact-font-family};
+  font-weight: #{$typography-xs-semibold-sans-impact-font-weight};
+  font-style: #{$typography-xs-semibold-sans-impact-font-style};
+  font-stretch: #{$typography-xs-semibold-sans-impact-font-stretch};
+  letter-spacing: #{$typography-xs-semibold-sans-impact-letter-spacing};
+  line-height: #{$typography-xs-semibold-sans-impact-line-height};
+  text-indent: #{$typography-xs-semibold-sans-impact-paragraph-indent};
+  margin-bottom: #{$typography-xs-semibold-sans-impact-paragraph-spacing};
+}
+
+.typography-xs-italic-serif-impact {
+  font-size: #{$typography-xs-italic-serif-impact-font-size};
+  text-decoration: #{$typography-xs-italic-serif-impact-text-decoration};
+  font-family: #{$typography-xs-italic-serif-impact-font-family};
+  font-weight: #{$typography-xs-italic-serif-impact-font-weight};
+  font-style: #{$typography-xs-italic-serif-impact-font-style};
+  font-stretch: #{$typography-xs-italic-serif-impact-font-stretch};
+  letter-spacing: #{$typography-xs-italic-serif-impact-letter-spacing};
+  line-height: #{$typography-xs-italic-serif-impact-line-height};
+  text-indent: #{$typography-xs-italic-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-xs-italic-serif-impact-paragraph-spacing};
+}
+
+.typography-xs-regular-sans-impact {
+  font-size: #{$typography-xs-regular-sans-impact-font-size};
+  text-decoration: #{$typography-xs-regular-sans-impact-text-decoration};
+  font-family: #{$typography-xs-regular-sans-impact-font-family};
+  font-weight: #{$typography-xs-regular-sans-impact-font-weight};
+  font-style: #{$typography-xs-regular-sans-impact-font-style};
+  font-stretch: #{$typography-xs-regular-sans-impact-font-stretch};
+  letter-spacing: #{$typography-xs-regular-sans-impact-letter-spacing};
+  line-height: #{$typography-xs-regular-sans-impact-line-height};
+  text-indent: #{$typography-xs-regular-sans-impact-paragraph-indent};
+  margin-bottom: #{$typography-xs-regular-sans-impact-paragraph-spacing};
+}
+
+.typography-2xs-regular-serif-impact {
+  font-size: #{$typography-2xs-regular-serif-impact-font-size};
+  text-decoration: #{$typography-2xs-regular-serif-impact-text-decoration};
+  font-family: #{$typography-2xs-regular-serif-impact-font-family};
+  font-weight: #{$typography-2xs-regular-serif-impact-font-weight};
+  font-style: #{$typography-2xs-regular-serif-impact-font-style};
+  font-stretch: #{$typography-2xs-regular-serif-impact-font-stretch};
+  letter-spacing: #{$typography-2xs-regular-serif-impact-letter-spacing};
+  line-height: #{$typography-2xs-regular-serif-impact-line-height};
+  text-indent: #{$typography-2xs-regular-serif-impact-paragraph-indent};
+  margin-bottom: #{$typography-2xs-regular-serif-impact-paragraph-spacing};
+}
+

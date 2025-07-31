@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-     "build": "node scripts/postprocess/index.js"
+    "build": "node build-tokens.js && node scripts/postprocess/index.js"
   },
   "devDependencies": {
     "style-dictionary": "^3.8.0"

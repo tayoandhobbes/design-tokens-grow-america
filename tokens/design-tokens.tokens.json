@@ -599,6 +599,21 @@
             "exportKey": "variables"
           }
         }
+      },
+      "tint-20": {
+        "type": "color",
+        "value": "#ffffffff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "color",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:2577:131531",
+            "exportKey": "variables"
+          }
+        }
       }
     },
     "brand-magenta": {
@@ -691,6 +706,21 @@
             "exportKey": "variables"
           }
         }
+      },
+      "tint-28": {
+        "type": "color",
+        "value": "#ffffffff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "color",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:2577:131534",
+            "exportKey": "variables"
+          }
+        }
       }
     },
     "brand-purple": {
@@ -780,6 +810,21 @@
               "ALL_SCOPES"
             ],
             "variableId": "VariableID:581:3590",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "tint-28": {
+        "type": "color",
+        "value": "#ffffffff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "color",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:2577:131535",
             "exportKey": "variables"
           }
         }
@@ -966,6 +1011,38 @@
               "ALL_SCOPES"
             ],
             "variableId": "VariableID:109:7560",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "brand-navy": {
+      "tint-80": {
+        "type": "color",
+        "value": "#c8daf9ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "color",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:2574:131523",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "tint-94": {
+        "type": "color",
+        "value": "#e9f0fdff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "color",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:2574:131524",
             "exportKey": "variables"
           }
         }
@@ -1261,11 +1338,11 @@
     }
   },
   "typography": {
-    "display": {
-      "✅ semibold - serif": {
+    "super": {
+      "medium-brand--impact": {
         "fontSize": {
           "type": "dimension",
-          "value": 100
+          "value": 170
         },
         "textDecoration": {
           "type": "string",
@@ -1273,11 +1350,11 @@
         },
         "fontFamily": {
           "type": "string",
-          "value": "Source Serif 4"
+          "value": "Wallop TRIAL"
         },
         "fontWeight": {
           "type": "number",
-          "value": 600
+          "value": 500
         },
         "fontStyle": {
           "type": "string",
@@ -1289,11 +1366,11 @@
         },
         "letterSpacing": {
           "type": "dimension",
-          "value": -2
+          "value": -5.1
         },
         "lineHeight": {
           "type": "dimension",
-          "value": 68
+          "value": 151.3
         },
         "paragraphIndent": {
           "type": "dimension",
@@ -1305,10 +1382,12 @@
         },
         "textCase": {
           "type": "string",
-          "value": "none"
+          "value": "uppercase"
         }
-      },
-      "✅ medium - sans": {
+      }
+    },
+    "display": {
+      "medium-brand--impact": {
         "fontSize": {
           "type": "dimension",
           "value": 100
@@ -1354,7 +1433,7 @@
           "value": "none"
         }
       },
-      "✅ italic - serif": {
+      "italic-serif--impact": {
         "fontSize": {
           "type": "dimension",
           "value": 100
@@ -1382,6 +1461,52 @@
         "letterSpacing": {
           "type": "dimension",
           "value": -3
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 82
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "✅ semibold - serif": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 100
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Serif 4"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": -2
         },
         "lineHeight": {
           "type": "dimension",
@@ -1629,9 +1754,147 @@
           "type": "string",
           "value": "none"
         }
+      },
+      "medium - brand": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 100
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Wallop TRIAL"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": -2
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 68
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 32
+        },
+        "textCase": {
+          "type": "string",
+          "value": "uppercase"
+        }
       }
     },
-    "one": {
+    "h1": {
+      "medium-brand--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 62
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Wallop TRIAL"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 62
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "semibold-sans--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 62
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Wallop TRIAL"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 62
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
       "regular sans": {
         "fontSize": {
           "type": "dimension",
@@ -1862,52 +2125,6 @@
           "value": "capitalize"
         }
       },
-      "✅ semibold - sans": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 62
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Wallop TRIAL"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 600
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "normal"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 62
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
-        }
-      },
       "✅ semibold - italic": {
         "fontSize": {
           "type": "dimension",
@@ -1953,9 +2170,147 @@
           "type": "string",
           "value": "none"
         }
+      },
+      "regular-sans--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 58
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Sans 3"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 58
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "capitalize"
+        }
       }
     },
-    "two": {
+    "h2": {
+      "medium-italic-serif--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 48
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Serif 4"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "italic"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 48
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 32
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "medium-brand--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 48
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Wallop TRIAL"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 48
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
       "two underlined": {
         "fontSize": {
           "type": "dimension",
@@ -2323,11 +2678,13 @@
           "type": "string",
           "value": "none"
         }
-      },
-      "medium - sans": {
+      }
+    },
+    "h3": {
+      "semibold-sans--impact": {
         "fontSize": {
           "type": "dimension",
-          "value": 48
+          "value": 38
         },
         "textDecoration": {
           "type": "string",
@@ -2339,7 +2696,7 @@
         },
         "fontWeight": {
           "type": "number",
-          "value": 500
+          "value": 600
         },
         "fontStyle": {
           "type": "string",
@@ -2355,7 +2712,7 @@
         },
         "lineHeight": {
           "type": "dimension",
-          "value": 48
+          "value": 45.6
         },
         "paragraphIndent": {
           "type": "dimension",
@@ -2369,9 +2726,7 @@
           "type": "string",
           "value": "none"
         }
-      }
-    },
-    "three": {
+      },
       "bold": {
         "fontSize": {
           "type": "dimension",
@@ -2648,52 +3003,6 @@
           "value": "none"
         }
       },
-      "✅ semibold - sans": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 38
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Wallop TRIAL"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 600
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "normal"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 45.6
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
-        }
-      },
       "medium - wallop": {
         "fontSize": {
           "type": "dimension",
@@ -2831,9 +3140,101 @@
           "type": "string",
           "value": "none"
         }
+      },
+      "h3-regular-serif--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 36
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Serif 4"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 43.2
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
       }
     },
-    "four": {
+    "h4": {
+      "medium-italic-serif--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 28
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Serif 4"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "italic"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 26
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 24
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
       "bold": {
         "fontSize": {
           "type": "dimension",
@@ -3064,7 +3465,7 @@
           "value": "none"
         }
       },
-      "✅ medium - brand": {
+      "medium-brand--impact": {
         "fontSize": {
           "type": "dimension",
           "value": 28
@@ -3109,11 +3510,13 @@
           "type": "string",
           "value": "none"
         }
-      },
-      "✅ medium italic - serif": {
+      }
+    },
+    "h5": {
+      "medium-brand--impact": {
         "fontSize": {
           "type": "dimension",
-          "value": 28
+          "value": 22
         },
         "textDecoration": {
           "type": "string",
@@ -3121,7 +3524,7 @@
         },
         "fontFamily": {
           "type": "string",
-          "value": "Source Serif 4"
+          "value": "Wallop TRIAL"
         },
         "fontWeight": {
           "type": "number",
@@ -3129,7 +3532,7 @@
         },
         "fontStyle": {
           "type": "string",
-          "value": "italic"
+          "value": "normal"
         },
         "fontStretch": {
           "type": "string",
@@ -3141,7 +3544,7 @@
         },
         "lineHeight": {
           "type": "dimension",
-          "value": 26
+          "value": 26.4
         },
         "paragraphIndent": {
           "type": "dimension",
@@ -3149,15 +3552,59 @@
         },
         "paragraphSpacing": {
           "type": "dimension",
-          "value": 24
+          "value": 0
         },
         "textCase": {
           "type": "string",
           "value": "none"
         }
-      }
-    },
-    "five": {
+      },
+      "semibold-sans--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 22
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Wallop TRIAL"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 26.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
       "bold": {
         "fontSize": {
           "type": "dimension",
@@ -3341,101 +3788,9 @@
           "type": "string",
           "value": "capitalize"
         }
-      },
-      "✅ semibold - sans": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 22
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Wallop TRIAL"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 600
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "normal"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 26.4
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
-        }
-      },
-      "✅ medium - brand": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 22
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Wallop TRIAL"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 500
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "normal"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 26.4
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
-        }
       }
     },
-    "six": {
+    "h6": {
       "bold (caps)": {
         "fontSize": {
           "type": "dimension",
@@ -3759,8 +4114,8 @@
         }
       }
     },
-    "xxxl": {
-      "✅ medium italic - serif": {
+    "3xl": {
+      "medium-italic-serif--impact": {
         "description": "Lead Paragraphs and Pull Quotes",
         "fontSize": {
           "type": "dimension",
@@ -3808,7 +4163,53 @@
         }
       }
     },
-    "xxl": {
+    "2xl": {
+      "italic-serif--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 26
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Serif 4"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "italic"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 36.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 52
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
       "✅ medium italic": {
         "fontSize": {
           "type": "dimension",
@@ -3825,52 +4226,6 @@
         "fontWeight": {
           "type": "number",
           "value": 500
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "italic"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 31.2
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 52
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
-        }
-      },
-      "✅ italic - serif": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 26
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Source Serif 4"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 400
         },
         "fontStyle": {
           "type": "string",
@@ -4087,6 +4442,52 @@
       }
     },
     "xl": {
+      "medium-italic-seric--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 22
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Serif 4"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "italic"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 35.2
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 24
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
       "✅ medium - serif": {
         "fontSize": {
           "type": "dimension",
@@ -4173,52 +4574,6 @@
         "paragraphSpacing": {
           "type": "dimension",
           "value": 44
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
-        }
-      },
-      "✅ italic - serif": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 22
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Source Serif 4"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 500
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "italic"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 22
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 24
         },
         "textCase": {
           "type": "string",
@@ -4689,99 +5044,7 @@
       }
     },
     "md": {
-      "✅ semibold - brand": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 18
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Wallop TRIAL"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 600
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "normal"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0.36
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 28.8
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 28
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
-        }
-      },
-      "✅ semibold sans": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 18
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Source Sans 3"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 600
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "normal"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 28.8
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 28
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
-        }
-      },
-      "✅ medium - sans": {
+      "medium-sans--impact": {
         "fontSize": {
           "type": "dimension",
           "value": 18
@@ -4827,7 +5090,7 @@
           "value": "none"
         }
       },
-      "✅  regular - serif": {
+      "regular-serif--impact": {
         "fontSize": {
           "type": "dimension",
           "value": 18
@@ -4866,7 +5129,99 @@
         },
         "paragraphSpacing": {
           "type": "dimension",
+          "value": 12
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "semibold-sans--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 18
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Sans 3"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 28.8
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
           "value": 28
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "semibold-italic-serif--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 18
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Serif 4"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "italic"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 28.8
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 24
         },
         "textCase": {
           "type": "string",
@@ -4913,6 +5268,52 @@
         "paragraphSpacing": {
           "type": "dimension",
           "value": 24
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "✅ semibold - brand": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 18
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Wallop TRIAL"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0.36
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 28.8
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 28
         },
         "textCase": {
           "type": "string",
@@ -5056,102 +5457,10 @@
           "type": "string",
           "value": "capitalize"
         }
-      },
-      "✅ semibold italic - serif": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 18
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Source Serif 4"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 500
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "italic"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 28.8
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 24
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
-        }
       }
     },
     "sm": {
-      "✅ semibld - sans": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 16
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Source Sans 3"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 600
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "normal"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 16
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
-        }
-      },
-      "✅ regular - serif": {
+      "regular-serif--impact": {
         "fontSize": {
           "type": "dimension",
           "value": 16
@@ -5197,7 +5506,99 @@
           "value": "none"
         }
       },
-      "✅ regular sans": {
+      "regular-serif-tight--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Serif 4"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 22.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 32
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "semibold-sans--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Sans 3"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 16
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "regular-sans--impact": {
         "fontSize": {
           "type": "dimension",
           "value": 16
@@ -5243,7 +5644,7 @@
           "value": "none"
         }
       },
-      "✅ italic - serif": {
+      "italic-serif--impact": {
         "fontSize": {
           "type": "dimension",
           "value": 16
@@ -5518,11 +5919,59 @@
           "type": "string",
           "value": "none"
         }
-      },
-      "regular - serif - tight": {
+      }
+    },
+    "xs": {
+      "semibold-sans--impact": {
         "fontSize": {
           "type": "dimension",
-          "value": 16
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Sans 3"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 600
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 14
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "italic-serif--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
         },
         "textDecoration": {
           "type": "string",
@@ -5531,6 +5980,52 @@
         "fontFamily": {
           "type": "string",
           "value": "Source Serif 4"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "italic"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 19.6
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 24
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "regular-sans--impact": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Source Sans 3"
         },
         "fontWeight": {
           "type": "number",
@@ -5550,7 +6045,7 @@
         },
         "lineHeight": {
           "type": "dimension",
-          "value": 19.2
+          "value": 14
         },
         "paragraphIndent": {
           "type": "dimension",
@@ -5558,15 +6053,13 @@
         },
         "paragraphSpacing": {
           "type": "dimension",
-          "value": 32
+          "value": 24
         },
         "textCase": {
           "type": "string",
           "value": "none"
         }
-      }
-    },
-    "xs": {
+      },
       "✅ semibold - sans": {
         "fontSize": {
           "type": "dimension",
@@ -5612,57 +6105,13 @@
           "type": "string",
           "value": "none"
         }
-      },
-      "✅ regular - sans": {
+      }
+    },
+    "2xs": {
+      "regular-serif--impact": {
         "fontSize": {
           "type": "dimension",
-          "value": 14
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Source Sans 3"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 400
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "normal"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 14
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 24
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
-        }
-      },
-      "✅ italic - serif": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 14
+          "value": 12
         },
         "textDecoration": {
           "type": "string",
@@ -5678,7 +6127,7 @@
         },
         "fontStyle": {
           "type": "string",
-          "value": "italic"
+          "value": "normal"
         },
         "fontStretch": {
           "type": "string",
@@ -5686,11 +6135,11 @@
         },
         "letterSpacing": {
           "type": "dimension",
-          "value": 0
+          "value": 0.24
         },
         "lineHeight": {
           "type": "dimension",
-          "value": 14
+          "value": 21.6
         },
         "paragraphIndent": {
           "type": "dimension",
@@ -5704,9 +6153,7 @@
           "type": "string",
           "value": "none"
         }
-      }
-    },
-    "xxs": {
+      },
       "✅ bold - sans": {
         "fontSize": {
           "type": "dimension",
@@ -5751,52 +6198,6 @@
         "textCase": {
           "type": "string",
           "value": "uppercase"
-        }
-      },
-      "✅ regular - serif": {
-        "fontSize": {
-          "type": "dimension",
-          "value": 12
-        },
-        "textDecoration": {
-          "type": "string",
-          "value": "none"
-        },
-        "fontFamily": {
-          "type": "string",
-          "value": "Source Serif 4"
-        },
-        "fontWeight": {
-          "type": "number",
-          "value": 400
-        },
-        "fontStyle": {
-          "type": "string",
-          "value": "normal"
-        },
-        "fontStretch": {
-          "type": "string",
-          "value": "normal"
-        },
-        "letterSpacing": {
-          "type": "dimension",
-          "value": 0.24
-        },
-        "lineHeight": {
-          "type": "dimension",
-          "value": 21.6
-        },
-        "paragraphIndent": {
-          "type": "dimension",
-          "value": 0
-        },
-        "paragraphSpacing": {
-          "type": "dimension",
-          "value": 24
-        },
-        "textCase": {
-          "type": "string",
-          "value": "none"
         }
       },
       "bold": {
@@ -5938,7 +6339,7 @@
         }
       }
     },
-    "ty": {
+    "3xs": {
       "✅ bold - sans": {
         "fontSize": {
           "type": "dimension",

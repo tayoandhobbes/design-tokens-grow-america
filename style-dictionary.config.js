@@ -1,114 +1,114 @@
 // style-dictionary.config.js
-import StyleDictionary from 'style-dictionary';
-
-
-const isColor = token => token.type === 'color';
-const isTypography = token => token.path[0] === 'typography';
-const isSize = token => token.type === 'dimension' && token.path.includes('size', 'test');
-const isSpacing = token => token.type === 'dimension' && token.path.includes('spacing');
-const isRadius = token => token.type === 'dimension' && token.path.includes('radius-corner');
-const isStroke = token => token.type === 'dimension' && token.path.includes('stroke');
-const isOpacity = token => token.type === 'dimension' && token.path.includes('opacity');
-const isMediaQuery = token => token.type === 'dimension' && token.path.includes('media-queries');
+import StyleDictionary from "style-dictionary";
 
 export default {
-  source: ['tokens/**/*.json'],
-      scss_variables: {
-      transformGroup: 'scss',
-      buildPath: 'build/scss/',
-      files: [{
-        destination: 'variables.scss',
-        format: 'scss/variables'
-      }]
-    },
-    json_tokens: {
-      transformGroup: 'js',
-      buildPath: 'build/json/',
-      files: [{
-        destination: 'tokens.json',
-        format: 'json/nested'
-      }]
-    },
+  source: ["tokens/**/*.json"],
   platforms: {
-    css_color: {
-      transformGroup: 'css',
-      buildPath: 'build/css/color/',
-      files: [{
-        destination: 'color.css',
-        format: 'css/variables',
-        filter: isColor
-      }]
+    scss_variables: {
+      transformGroup: "scss",
+      buildPath: "build/scss/",
+      files: [
+        {
+          destination: "variables.scss",
+          format: "scss/variables",
+        },
+        {
+          destination: "typography/typography.scss",
+          format: "scss/variables",
+          filter: (token) =>
+            Array.isArray(token.path) &&
+            token.path[0] === "typography" &&
+            token.path.some((p) => p.endsWith("-impact")),
+        },
+        {
+          destination: "color/color.scss",
+          format: "scss/variables",
+          filter: (token) =>
+            Array.isArray(token.path) && token.path.includes("color"),
+        },
+        {
+          destination: "media/media.scss",
+          format: "scss/variables",
+          filter: (token) => token.path.includes("media-queries"),
+        },
+        {
+          destination: "spacing/spacing.scss",
+          format: "scss/variables",
+          filter: (token) => token.path.includes("spacing"),
+        },
+        {
+          destination: "radius/radius.scss",
+          format: "scss/variables",
+          filter: (token) => token.path.includes("radius-corner"),
+        },
+        {
+          destination: "stroke/stroke.scss",
+          format: "scss/variables",
+          filter: (token) =>
+            Array.isArray(token.path) && token.path.includes("stroke"),
+        },
+        {
+          destination: "opacity/opacity.scss",
+          format: "scss/variables",
+          filter: (token) => token.path.includes("opacity"),
+        },
+      ],
     },
-    css_radius: {
-      transformGroup: 'css',
-      buildPath: 'build/css/radius/',
-      files: [{
-        destination: 'radius.css',
-        format: 'css/variables',
-        filter: isRadius
-      }]
+    json: {
+      transformGroup: "js",
+      buildPath: "build/json/",
+      files: [
+        {
+          destination: "tokens.json",
+          format: "json/flat",
+        },
+      ],
     },
-    css_typography: {
-      transformGroup: 'css',
-      buildPath: 'build/css/typography/',
-      files: [{
-        destination: 'typography.css',
-        format: 'css/variables',
-        filter: isTypography
-      }]
+    css: {
+      transformGroup: "css",
+      buildPath: "build/css/",
+      files: [
+        {
+          destination: "stroke/stroke.css",
+          format: "css/variables",
+          filter: (token) =>
+            Array.isArray(token.path) && token.path.includes("stroke"),
+        },
+        {
+          destination: "typography/typography.css",
+          format: "css/variables",
+          filter: (token) =>
+            Array.isArray(token.path) &&
+            token.path[0] === "typography" &&
+            token.path.some((p) => p.endsWith("-impact")),
+        },
+        {
+          destination: "spacing/spacing.css",
+          format: "css/variables",
+          filter: (token) => token.path.includes("spacing"),
+        },
+        {
+          destination: "radius/radius.css",
+          format: "css/variables",
+          filter: (token) => token.path.includes("radius-corner"),
+        },
+        {
+          destination: "opacity/opacity.css",
+          format: "css/variables",
+          filter: (token) => token.path.includes("opacity"),
+        },
+        {
+          destination: "media/media.css",
+          format: "css/variables",
+          filter: (token) => token.path.includes("media-queries"),
+        },
+        {
+          destination: "color/color.css",
+          format: "css/variables",
+          filter: (token) =>
+            Array.isArray(token.path) && token.path.includes("color"),
+        },
+      ],
     },
-    css_size: {
-      transformGroup: 'css',
-      buildPath: 'build/css/size/',
-      files: [{
-        destination: 'size.css',
-        format: 'css/variables',
-        filter: isSize
-      }]
-    },
-    css_spacing: {
-      transformGroup: 'css',
-      buildPath: 'build/css/spacing/',
-      files: [{
-        destination: 'spacing.css',
-        format: 'css/variables',
-        filter: isSpacing
-      }]
-    },
-    css_stroke: {
-  transformGroup: 'css',
-  buildPath: 'build/css/stroke/',
-  files: [{
-    destination: 'stroke.css',
-    format: 'css/variables',
-    filter: isStroke
-  }]
-},
-css_opacity: {
-  transformGroup: 'css',
-  buildPath: 'build/css/opacity/',
-  files: [{
-    destination: 'opacity.css',
-    format: 'css/variables',
-    filter: isOpacity
-  }]
-},
-css_media: {
-  transformGroup: 'css',
-  buildPath: 'build/css/media/',
-  files: [{
-    destination: 'media.css',
-    format: 'css/variables',
-    filter: isMediaQuery
-  }]
-},
-all_tokens_json: {
-  transformGroup: 'js',
-  buildPath: 'build/json/',
-  files: [{
-    destination: 'all-tokens.json',
-    format: 'json/nested'
-  }]
-},
-  }
+  },
 };

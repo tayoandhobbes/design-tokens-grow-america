@@ -3,14 +3,6 @@
  */
 
 :root {
-  --color-cta-primary: var(--color-brand-yellow);
-  --color-cta-hover: var(--color-brand-yellow-tint-25);
-  --color-cta-primary: var(--color-brand-yellow);
-  --color-cta-hover: var(--color-brand-yellow-tint-25);
-  --color-cta-primary: var(--color-brand-yellow);
-  --color-cta-hover: var(--color-brand-yellow-tint-25);
-  --color-cta-primary: var(--color-brand-yellow);
-  --color-cta-hover: var(--color-brand-yellow-tint-25);
   --color-brand-yellow: #fea42a;
   --color-brand-orange: #fc7445;
   --color-brand-red: #fe5a59;
@@ -40,18 +32,21 @@
   --color-brand-red-tint-90: #ffeeee;
   --color-brand-red-tint-10: #fe6b6a;
   --color-brand-red-shade-10: #e4403f;
+  --color-brand-red-tint-20: #ffffff;
   --color-brand-magenta-tint-25: #c675a2;
   --color-brand-magenta-tint-50: #d9a3c1;
   --color-brand-magenta-tint-75: #ecd1e0;
   --color-brand-magenta-tint-90: #f7edf3;
   --color-brand-magenta-tint-10: #bb598f;
   --color-brand-magenta-shade-10: #992d69;
+  --color-brand-magenta-tint-28: #ffffff;
   --color-brand-purple-tint-25: #8c84c3;
   --color-brand-purple-tint-50: #b2add7;
   --color-brand-purple-tint-75: #d9d6eb;
   --color-brand-purple-tint-90: #f0eff7;
   --color-brand-purple-tint-10: #756bb7;
   --color-brand-purple-shade-10: #4c4195;
+  --color-brand-purple-tint-28: #ffffff;
   --color-brand-blue-tint-25: #598fee;
   --color-brand-blue-tint-50: #90b4f3;
   --color-brand-blue-tint-75: #c8daf9;
@@ -64,4 +59,6 @@
   --color-base-black-tint-50: #808991;
   --color-base-black-tint-96: #f5f6f6;
   --color-ui-purple: #9747ff;
+  --color-brand-navy-tint-80: #c8daf9;
+  --color-brand-navy-tint-94: #e9f0fd;
 }

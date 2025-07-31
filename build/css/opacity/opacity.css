@@ -3,17 +3,5 @@
  */
 
 :root {
-  --opacity-button-inactive: var(--opacity-inactive);
-  --opacity-hidden: var(--opacity-none);
-  --opacity-visible: var(--opacity-full);
-  --opacity-button-inactive: var(--opacity-inactive);
-  --opacity-hidden: var(--opacity-none);
-  --opacity-visible: var(--opacity-full);
-  --opacity-button-inactive: var(--opacity-inactive);
-  --opacity-hidden: var(--opacity-none);
-  --opacity-visible: var(--opacity-full);
-  --opacity-button-inactive: var(--opacity-inactive);
-  --opacity-hidden: var(--opacity-none);
-  --opacity-visible: var(--opacity-full);
   --opacity-inactive: 0.20;
 }
